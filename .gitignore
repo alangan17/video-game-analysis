@@ -194,3 +194,11 @@ krb5.conf
 
 # SQL Server config
 openssl.cnf
+
+# Credentials Management
+profiles.yml
+# mage/io_config.yaml # DO NOT INPUT ANY ACTUAL VALUES HERE, REFERENCE TO .ENV
+*.env
+*.env.base
+*.env.enc
+*.env.dec
