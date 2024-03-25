@@ -22,7 +22,7 @@ services:
     deploy:
       resources:
         limits:
-          memory: 1000M
+          memory: 5000M
 
   minio:
     ## Use `docker compose --profile storage up -d` to spin up this container
