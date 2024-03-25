@@ -1,0 +1,3936 @@
+{
+    "count": 864783,
+    "next": "https://api.rawg.io/api/games?dates=2023-01-01.2023-12-31&key=AAAAAAAAAA&ordering=-released&page=2&page_size=40",
+    "previous": null,
+    "results": [
+        {
+            "id": 967261,
+            "slug": "station-to-station-2023",
+            "name": "Station to Station (2023)",
+            "released": "2033-10-03",
+            "tba": false,
+            "background_image": "https://media.rawg.io/media/screenshots/263/2639fd02b2ccf2beab4d9704365c78f8.jpg",
+            "rating": 0.0,
+            "rating_top": 0,
+            "ratings": [],
+            "ratings_count": 0,
+            "reviews_text_count": 0,
+            "added": 1,
+            "added_by_status": {
+                "yet": 1
+            },
+            "metacritic": null,
+            "playtime": 0,
+            "suggestions_count": 605,
+            "updated": "2023-12-10T18:32:10",
+            "user_game": null,
+            "reviews_count": 0,
+            "community_rating": 0,
+            "saturated_color": "0f0f0f",
+            "dominant_color": "0f0f0f",
+            "platforms": [
+                {
+                    "platform": {
+                        "id": 4,
+                        "name": "PC",
+                        "slug": "pc",
+                        "image": null,
+                        "year_end": null,
+                        "year_start": null,
+                        "games_count": 527444,
+                        "image_background": "https://media.rawg.io/media/games/511/5118aff5091cb3efec399c808f8c598f.jpg"
+                    },
+                    "released_at": "2033-10-03",
+                    "requirements_en": null,
+                    "requirements_ru": null
+                }
+            ],
+            "parent_platforms": [
+                {
+                    "platform": {
+                        "id": 1,
+                        "name": "PC",
+                        "slug": "pc"
+                    }
+                }
+            ],
+            "genres": [
+                {
+                    "id": 14,
+                    "name": "Simulation",
+                    "slug": "simulation",
+                    "games_count": 68867,
+                    "image_background": "https://media.rawg.io/media/games/a44/a444a7628bdb49b24d06a7672f805814.jpg"
+                },
+                {
+                    "id": 7,
+                    "name": "Puzzle",
+                    "slug": "puzzle",
+                    "games_count": 97264,
+                    "image_background": "https://media.rawg.io/media/games/cfe/cfe114c081281960bd79ace5209c0a4a.jpg"
+                }
+            ],
+            "stores": [
+                {
+                    "id": 966662,
+                    "store": {
+                        "id": 1,
+                        "name": "Steam",
+                        "slug": "steam",
+                        "domain": "store.steampowered.com",
+                        "games_count": 90618,
+                        "image_background": "https://media.rawg.io/media/games/587/587588c64afbff80e6f444eb2e46f9da.jpg"
+                    }
+                }
+            ],
+            "clip": null,
+            "tags": [],
+            "esrb_rating": {
+                "id": 3,
+                "name": "Teen",
+                "slug": "teen"
+            },
+            "short_screenshots": [
+                {
+                    "id": -1,
+                    "image": "https://media.rawg.io/media/screenshots/263/2639fd02b2ccf2beab4d9704365c78f8.jpg"
+                },
+                {
+                    "id": 3933187,
+                    "image": "https://media.rawg.io/media/screenshots/cf5/cf5cf152634087935e0ed003dfa55ce5.jpg"
+                },
+                {
+                    "id": 3933188,
+                    "image": "https://media.rawg.io/media/screenshots/d52/d52a2e85227cb824dd1dafd4506f03d0.jpg"
+                },
+                {
+                    "id": 3933189,
+                    "image": "https://media.rawg.io/media/screenshots/521/521ba3a43b39cca9df1526192995dd9f.jpg"
+                },
+                {
+                    "id": 3933190,
+                    "image": "https://media.rawg.io/media/screenshots/008/0084b61910ed199c9ca87637c056ce47.jpg"
+                },
+                {
+                    "id": 3933191,
+                    "image": "https://media.rawg.io/media/screenshots/3f4/3f4701439f69d40520f097cb124fdc7b.jpg"
+                },
+                {
+                    "id": 3933192,
+                    "image": "https://media.rawg.io/media/screenshots/799/7998343ef9976cdd4a3aa4380fa55a18.jpg"
+                }
+            ]
+        },
+        {
+            "id": 236748,
+            "slug": "kmenta",
+            "name": "Kmenta",
+            "released": "2033-01-03",
+            "tba": false,
+            "background_image": "https://media.rawg.io/media/screenshots/3be/3be596df93186292773c894b124089bb.jpg",
+            "rating": 0.0,
+            "rating_top": 0,
+            "ratings": [],
+            "ratings_count": 0,
+            "reviews_text_count": 0,
+            "added": 2,
+            "added_by_status": {
+                "owned": 2
+            },
+            "metacritic": null,
+            "playtime": 0,
+            "suggestions_count": 99,
+            "updated": "2019-08-28T21:53:31",
+            "user_game": null,
+            "reviews_count": 0,
+            "community_rating": 0,
+            "saturated_color": "0f0f0f",
+            "dominant_color": "0f0f0f",
+            "platforms": [
+                {
+                    "platform": {
+                        "id": 4,
+                        "name": "PC",
+                        "slug": "pc",
+                        "image": null,
+                        "year_end": null,
+                        "year_start": null,
+                        "games_count": 527448,
+                        "image_background": "https://media.rawg.io/media/games/562/562553814dd54e001a541e4ee83a591c.jpg"
+                    },
+                    "released_at": "2033-01-03",
+                    "requirements_en": {
+                        "minimum": "<strong>Minimum:</strong><br><ul class=\"bb_ul\"><li><strong>OS:</strong> Windows 10<br></li><li><strong>Processor:</strong> Intel Core i3 2100 or AMD A8-6500<br></li><li><strong>Memory:</strong> 4 GB RAM<br></li><li><strong>Graphics:</strong> NVIDIA GeForce GTX 770 VRAM 2GB or AMD Radeon R9 270X VRAM 2GB<br></li><li><strong>DirectX:</strong> Version 11<br></li><li><strong>Network:</strong> Broadband Internet connection<br></li><li><strong>Storage:</strong> 300 MB available space<br></li><li><strong>Sound Card:</strong> DirectX® 11 supported</li></ul>"
+                    },
+                    "requirements_ru": null
+                }
+            ],
+            "parent_platforms": [
+                {
+                    "platform": {
+                        "id": 1,
+                        "name": "PC",
+                        "slug": "pc"
+                    }
+                }
+            ],
+            "genres": [
+                {
+                    "id": 5,
+                    "name": "RPG",
+                    "slug": "role-playing-games-rpg",
+                    "games_count": 55388,
+                    "image_background": "https://media.rawg.io/media/games/c6b/c6bfece1daf8d06bc0a60632ac78e5bf.jpg"
+                }
+            ],
+            "stores": [
+                {
+                    "id": 233530,
+                    "store": {
+                        "id": 1,
+                        "name": "Steam",
+                        "slug": "steam",
+                        "domain": "store.steampowered.com",
+                        "games_count": 90621,
+                        "image_background": "https://media.rawg.io/media/games/34b/34b1f1850a1c06fd971bc6ab3ac0ce0e.jpg"
+                    }
+                }
+            ],
+            "clip": null,
+            "tags": [
+                {
+                    "id": 31,
+                    "name": "Singleplayer",
+                    "slug": "singleplayer",
+                    "language": "eng",
+                    "games_count": 219672,
+                    "image_background": "https://media.rawg.io/media/games/4be/4be6a6ad0364751a96229c56bf69be59.jpg"
+                },
+                {
+                    "id": 40847,
+                    "name": "Steam Achievements",
+                    "slug": "steam-achievements",
+                    "language": "eng",
+                    "games_count": 36304,
+                    "image_background": "https://media.rawg.io/media/games/46d/46d98e6910fbc0706e2948a7cc9b10c5.jpg"
+                },
+                {
+                    "id": 24,
+                    "name": "RPG",
+                    "slug": "rpg",
+                    "language": "eng",
+                    "games_count": 20161,
+                    "image_background": "https://media.rawg.io/media/games/995/9951d9d55323d08967640f7b9ab3e342.jpg"
+                },
+                {
+                    "id": 11669,
+                    "name": "stats",
+                    "slug": "stats",
+                    "language": "eng",
+                    "games_count": 4856,
+                    "image_background": "https://media.rawg.io/media/games/8cc/8cce7c0e99dcc43d66c8efd42f9d03e3.jpg"
+                },
+                {
+                    "id": 40833,
+                    "name": "Captions available",
+                    "slug": "captions-available",
+                    "language": "eng",
+                    "games_count": 1318,
+                    "image_background": "https://media.rawg.io/media/games/c2e/c2eb6021a2596644b437e943612af25c.jpg"
+                },
+                {
+                    "id": 143,
+                    "name": "RPGMaker",
+                    "slug": "rpgmaker",
+                    "language": "eng",
+                    "games_count": 1333,
+                    "image_background": "https://media.rawg.io/media/screenshots/b64/b648215b525a2a16b212fa738fc8884e.jpg"
+                },
+                {
+                    "id": 662,
+                    "name": "RPG Maker",
+                    "slug": "rpg-maker",
+                    "language": "eng",
+                    "games_count": 8613,
+                    "image_background": "https://media.rawg.io/media/screenshots/8f5/8f5fc58659059747db22061aef78545c.jpg"
+                }
+            ],
+            "esrb_rating": null,
+            "short_screenshots": [
+                {
+                    "id": -1,
+                    "image": "https://media.rawg.io/media/screenshots/3be/3be596df93186292773c894b124089bb.jpg"
+                },
+                {
+                    "id": 1609380,
+                    "image": "https://media.rawg.io/media/screenshots/ad6/ad65287aaf48041f334a4543767557b4.jpg"
+                },
+                {
+                    "id": 1609381,
+                    "image": "https://media.rawg.io/media/screenshots/4ec/4ecc56b2ec30eaaec24fef00da367e08.jpg"
+                },
+                {
+                    "id": 1609382,
+                    "image": "https://media.rawg.io/media/screenshots/0ae/0aef2eb42c5ef5125c341bd9eca01a73.jpg"
+                },
+                {
+                    "id": 1609383,
+                    "image": "https://media.rawg.io/media/screenshots/b64/b64d958f8395a78b8b7f8d82b89a4e40.jpg"
+                },
+                {
+                    "id": 1609384,
+                    "image": "https://media.rawg.io/media/screenshots/3be/3be596df93186292773c894b124089bb.jpg"
+                }
+            ]
+        },
+        {
+            "id": 953929,
+            "slug": "test-test-game",
+            "name": "test test game",
+            "released": "2030-05-05",
+            "tba": false,
+            "background_image": null,
+            "rating": 0.0,
+            "rating_top": 0,
+            "ratings": [],
+            "ratings_count": 0,
+            "reviews_text_count": 0,
+            "added": 0,
+            "added_by_status": null,
+            "metacritic": null,
+            "playtime": 0,
+            "suggestions_count": 0,
+            "updated": "2023-04-09T21:04:03",
+            "user_game": null,
+            "reviews_count": 0,
+            "community_rating": 0,
+            "saturated_color": "0f0f0f",
+            "dominant_color": "0f0f0f",
+            "platforms": [],
+            "parent_platforms": [],
+            "genres": [
+                {
+                    "id": 51,
+                    "name": "Indie",
+                    "slug": "indie",
+                    "games_count": 63324,
+                    "image_background": "https://media.rawg.io/media/games/ffe/ffed87105b14f5beff72ff44a7793fd5.jpg"
+                }
+            ],
+            "stores": [],
+            "clip": null,
+            "tags": [],
+            "esrb_rating": null,
+            "short_screenshots": []
+        },
+        {
+            "id": 336646,
+            "slug": "white-heaven",
+            "name": "White Heaven",
+            "released": "2030-01-01",
+            "tba": false,
+            "background_image": null,
+            "rating": 0.0,
+            "rating_top": 0,
+            "ratings": [],
+            "ratings_count": 0,
+            "reviews_text_count": 0,
+            "added": 1,
+            "added_by_status": {
+                "owned": 1
+            },
+            "metacritic": null,
+            "playtime": 0,
+            "suggestions_count": 0,
+            "updated": "2019-06-26T05:34:48",
+            "user_game": null,
+            "reviews_count": 0,
+            "community_rating": 0,
+            "saturated_color": "0f0f0f",
+            "dominant_color": "0f0f0f",
+            "platforms": [
+                {
+                    "platform": {
+                        "id": 4,
+                        "name": "PC",
+                        "slug": "pc",
+                        "image": null,
+                        "year_end": null,
+                        "year_start": null,
+                        "games_count": 527448,
+                        "image_background": "https://media.rawg.io/media/games/562/562553814dd54e001a541e4ee83a591c.jpg"
+                    },
+                    "released_at": "2030-01-01",
+                    "requirements_en": null,
+                    "requirements_ru": null
+                }
+            ],
+            "parent_platforms": [
+                {
+                    "platform": {
+                        "id": 1,
+                        "name": "PC",
+                        "slug": "pc"
+                    }
+                }
+            ],
+            "genres": [
+                {
+                    "id": 4,
+                    "name": "Action",
+                    "slug": "action",
+                    "games_count": 178957,
+                    "image_background": "https://media.rawg.io/media/games/b45/b45575f34285f2c4479c9a5f719d972e.jpg"
+                }
+            ],
+            "stores": [],
+            "clip": null,
+            "tags": [],
+            "esrb_rating": null,
+            "short_screenshots": []
+        },
+        {
+            "id": 336284,
+            "slug": "tianxia",
+            "name": "TianXia",
+            "released": "2030-01-01",
+            "tba": false,
+            "background_image": null,
+            "rating": 0.0,
+            "rating_top": 0,
+            "ratings": [],
+            "ratings_count": 0,
+            "reviews_text_count": 0,
+            "added": 2,
+            "added_by_status": {
+                "owned": 1,
+                "toplay": 1
+            },
+            "metacritic": null,
+            "playtime": 0,
+            "suggestions_count": 0,
+            "updated": "2019-06-26T02:20:03",
+            "user_game": null,
+            "reviews_count": 0,
+            "community_rating": 0,
+            "saturated_color": "0f0f0f",
+            "dominant_color": "0f0f0f",
+            "platforms": [
+                {
+                    "platform": {
+                        "id": 3,
+                        "name": "iOS",
+                        "slug": "ios",
+                        "image": null,
+                        "year_end": null,
+                        "year_start": null,
+                        "games_count": 77241,
+                        "image_background": "https://media.rawg.io/media/games/be0/be084b850302abe81675bc4ffc08a0d0.jpg"
+                    },
+                    "released_at": "2030-01-01",
+                    "requirements_en": null,
+                    "requirements_ru": null
+                },
+                {
+                    "platform": {
+                        "id": 21,
+                        "name": "Android",
+                        "slug": "android",
+                        "image": null,
+                        "year_end": null,
+                        "year_start": null,
+                        "games_count": 52342,
+                        "image_background": "https://media.rawg.io/media/games/b4e/b4e4c73d5aa4ec66bbf75375c4847a2b.jpg"
+                    },
+                    "released_at": "2030-01-01",
+                    "requirements_en": null,
+                    "requirements_ru": null
+                }
+            ],
+            "parent_platforms": [
+                {
+                    "platform": {
+                        "id": 4,
+                        "name": "iOS",
+                        "slug": "ios"
+                    }
+                },
+                {
+                    "platform": {
+                        "id": 8,
+                        "name": "Android",
+                        "slug": "android"
+                    }
+                }
+            ],
+            "genres": [
+                {
+                    "id": 5,
+                    "name": "RPG",
+                    "slug": "role-playing-games-rpg",
+                    "games_count": 55388,
+                    "image_background": "https://media.rawg.io/media/games/c6b/c6bfece1daf8d06bc0a60632ac78e5bf.jpg"
+                },
+                {
+                    "id": 59,
+                    "name": "Massively Multiplayer",
+                    "slug": "massively-multiplayer",
+                    "games_count": 3566,
+                    "image_background": "https://media.rawg.io/media/games/1bd/1bd2657b81eb0c99338120ad444b24ff.jpg"
+                }
+            ],
+            "stores": [],
+            "clip": null,
+            "tags": [],
+            "esrb_rating": null,
+            "short_screenshots": []
+        },
+        {
+            "id": 336262,
+            "slug": "the-drowning",
+            "name": "The Drowning",
+            "released": "2030-01-01",
+            "tba": false,
+            "background_image": null,
+            "rating": 0.0,
+            "rating_top": 0,
+            "ratings": [],
+            "ratings_count": 0,
+            "reviews_text_count": 0,
+            "added": 0,
+            "added_by_status": null,
+            "metacritic": null,
+            "playtime": 0,
+            "suggestions_count": 0,
+            "updated": "2019-06-26T02:08:07",
+            "user_game": null,
+            "reviews_count": 0,
+            "community_rating": 0,
+            "saturated_color": "0f0f0f",
+            "dominant_color": "0f0f0f",
+            "platforms": [
+                {
+                    "platform": {
+                        "id": 3,
+                        "name": "iOS",
+                        "slug": "ios",
+                        "image": null,
+                        "year_end": null,
+                        "year_start": null,
+                        "games_count": 77241,
+                        "image_background": "https://media.rawg.io/media/games/be0/be084b850302abe81675bc4ffc08a0d0.jpg"
+                    },
+                    "released_at": "2030-01-01",
+                    "requirements_en": null,
+                    "requirements_ru": null
+                },
+                {
+                    "platform": {
+                        "id": 21,
+                        "name": "Android",
+                        "slug": "android",
+                        "image": null,
+                        "year_end": null,
+                        "year_start": null,
+                        "games_count": 52342,
+                        "image_background": "https://media.rawg.io/media/games/b4e/b4e4c73d5aa4ec66bbf75375c4847a2b.jpg"
+                    },
+                    "released_at": "2030-01-01",
+                    "requirements_en": null,
+                    "requirements_ru": null
+                }
+            ],
+            "parent_platforms": [
+                {
+                    "platform": {
+                        "id": 4,
+                        "name": "iOS",
+                        "slug": "ios"
+                    }
+                },
+                {
+                    "platform": {
+                        "id": 8,
+                        "name": "Android",
+                        "slug": "android"
+                    }
+                }
+            ],
+            "genres": [
+                {
+                    "id": 4,
+                    "name": "Action",
+                    "slug": "action",
+                    "games_count": 178957,
+                    "image_background": "https://media.rawg.io/media/games/b45/b45575f34285f2c4479c9a5f719d972e.jpg"
+                },
+                {
+                    "id": 2,
+                    "name": "Shooter",
+                    "slug": "shooter",
+                    "games_count": 59469,
+                    "image_background": "https://media.rawg.io/media/games/15c/15c95a4915f88a3e89c821526afe05fc.jpg"
+                }
+            ],
+            "stores": [],
+            "clip": null,
+            "tags": [],
+            "esrb_rating": null,
+            "short_screenshots": []
+        },
+        {
+            "id": 336027,
+            "slug": "stalin-vs-martians-3",
+            "name": "Stalin vs. Martians 3",
+            "released": "2030-01-01",
+            "tba": false,
+            "background_image": null,
+            "rating": 0.0,
+            "rating_top": 0,
+            "ratings": [],
+            "ratings_count": 0,
+            "reviews_text_count": 0,
+            "added": 1,
+            "added_by_status": {
+                "owned": 1
+            },
+            "metacritic": null,
+            "playtime": 0,
+            "suggestions_count": 0,
+            "updated": "2019-06-26T00:02:52",
+            "user_game": null,
+            "reviews_count": 0,
+            "community_rating": 0,
+            "saturated_color": "0f0f0f",
+            "dominant_color": "0f0f0f",
+            "platforms": [
+                {
+                    "platform": {
+                        "id": 4,
+                        "name": "PC",
+                        "slug": "pc",
+                        "image": null,
+                        "year_end": null,
+                        "year_start": null,
+                        "games_count": 527448,
+                        "image_background": "https://media.rawg.io/media/games/562/562553814dd54e001a541e4ee83a591c.jpg"
+                    },
+                    "released_at": "2030-01-01",
+                    "requirements_en": null,
+                    "requirements_ru": null
+                }
+            ],
+            "parent_platforms": [
+                {
+                    "platform": {
+                        "id": 1,
+                        "name": "PC",
+                        "slug": "pc"
+                    }
+                }
+            ],
+            "genres": [
+                {
+                    "id": 10,
+                    "name": "Strategy",
+                    "slug": "strategy",
+                    "games_count": 55741,
+                    "image_background": "https://media.rawg.io/media/games/e44/e445335e611b4ccf03af71fffcbd30a4.jpg"
+                }
+            ],
+            "stores": [],
+            "clip": null,
+            "tags": [],
+            "esrb_rating": null,
+            "short_screenshots": []
+        },
+        {
+            "id": 335919,
+            "slug": "snack-world",
+            "name": "The Snack World",
+            "released": "2030-01-01",
+            "tba": false,
+            "background_image": null,
+            "rating": 0.0,
+            "rating_top": 0,
+            "ratings": [],
+            "ratings_count": 0,
+            "reviews_text_count": 0,
+            "added": 2,
+            "added_by_status": {
+                "owned": 1,
+                "toplay": 1
+            },
+            "metacritic": null,
+            "playtime": 0,
+            "suggestions_count": 0,
+            "updated": "2019-06-25T23:03:03",
+            "user_game": null,
+            "reviews_count": 0,
+            "community_rating": 0,
+            "saturated_color": "0f0f0f",
+            "dominant_color": "0f0f0f",
+            "platforms": [
+                {
+                    "platform": {
+                        "id": 3,
+                        "name": "iOS",
+                        "slug": "ios",
+                        "image": null,
+                        "year_end": null,
+                        "year_start": null,
+                        "games_count": 77241,
+                        "image_background": "https://media.rawg.io/media/games/be0/be084b850302abe81675bc4ffc08a0d0.jpg"
+                    },
+                    "released_at": "2030-01-01",
+                    "requirements_en": null,
+                    "requirements_ru": null
+                },
+                {
+                    "platform": {
+                        "id": 8,
+                        "name": "Nintendo 3DS",
+                        "slug": "nintendo-3ds",
+                        "image": null,
+                        "year_end": null,
+                        "year_start": null,
+                        "games_count": 1694,
+                        "image_background": "https://media.rawg.io/media/games/89a/89a700d3c6a76bd0610ca89ccd20da54.jpg"
+                    },
+                    "released_at": "2030-01-01",
+                    "requirements_en": null,
+                    "requirements_ru": null
+                },
+                {
+                    "platform": {
+                        "id": 21,
+                        "name": "Android",
+                        "slug": "android",
+                        "image": null,
+                        "year_end": null,
+                        "year_start": null,
+                        "games_count": 52342,
+                        "image_background": "https://media.rawg.io/media/games/b4e/b4e4c73d5aa4ec66bbf75375c4847a2b.jpg"
+                    },
+                    "released_at": "2030-01-01",
+                    "requirements_en": null,
+                    "requirements_ru": null
+                }
+            ],
+            "parent_platforms": [
+                {
+                    "platform": {
+                        "id": 4,
+                        "name": "iOS",
+                        "slug": "ios"
+                    }
+                },
+                {
+                    "platform": {
+                        "id": 8,
+                        "name": "Android",
+                        "slug": "android"
+                    }
+                },
+                {
+                    "platform": {
+                        "id": 7,
+                        "name": "Nintendo",
+                        "slug": "nintendo"
+                    }
+                }
+            ],
+            "genres": [
+                {
+                    "id": 5,
+                    "name": "RPG",
+                    "slug": "role-playing-games-rpg",
+                    "games_count": 55388,
+                    "image_background": "https://media.rawg.io/media/games/c6b/c6bfece1daf8d06bc0a60632ac78e5bf.jpg"
+                }
+            ],
+            "stores": [],
+            "clip": null,
+            "tags": [],
+            "esrb_rating": null,
+            "short_screenshots": []
+        },
+        {
+            "id": 335782,
+            "slug": "seven",
+            "name": "Seven",
+            "released": "2030-01-01",
+            "tba": false,
+            "background_image": null,
+            "rating": 0.0,
+            "rating_top": 0,
+            "ratings": [],
+            "ratings_count": 0,
+            "reviews_text_count": 0,
+            "added": 2,
+            "added_by_status": {
+                "yet": 1,
+                "owned": 1
+            },
+            "metacritic": null,
+            "playtime": 0,
+            "suggestions_count": 0,
+            "updated": "2019-06-25T21:40:10",
+            "user_game": null,
+            "reviews_count": 0,
+            "community_rating": 0,
+            "saturated_color": "0f0f0f",
+            "dominant_color": "0f0f0f",
+            "platforms": [
+                {
+                    "platform": {
+                        "id": 4,
+                        "name": "PC",
+                        "slug": "pc",
+                        "image": null,
+                        "year_end": null,
+                        "year_start": null,
+                        "games_count": 527448,
+                        "image_background": "https://media.rawg.io/media/games/562/562553814dd54e001a541e4ee83a591c.jpg"
+                    },
+                    "released_at": "2030-01-01",
+                    "requirements_en": null,
+                    "requirements_ru": null
+                }
+            ],
+            "parent_platforms": [
+                {
+                    "platform": {
+                        "id": 1,
+                        "name": "PC",
+                        "slug": "pc"
+                    }
+                }
+            ],
+            "genres": [
+                {
+                    "id": 4,
+                    "name": "Action",
+                    "slug": "action",
+                    "games_count": 178957,
+                    "image_background": "https://media.rawg.io/media/games/b45/b45575f34285f2c4479c9a5f719d972e.jpg"
+                },
+                {
+                    "id": 5,
+                    "name": "RPG",
+                    "slug": "role-playing-games-rpg",
+                    "games_count": 55388,
+                    "image_background": "https://media.rawg.io/media/games/c6b/c6bfece1daf8d06bc0a60632ac78e5bf.jpg"
+                }
+            ],
+            "stores": [],
+            "clip": null,
+            "tags": [],
+            "esrb_rating": null,
+            "short_screenshots": []
+        },
+        {
+            "id": 335709,
+            "slug": "sandbox-2",
+            "name": "The Sandbox 2",
+            "released": "2030-01-01",
+            "tba": false,
+            "background_image": "https://media.rawg.io/media/screenshots/ddf/ddfef922149b72afbf3805d911756cec.jpg",
+            "rating": 0.0,
+            "rating_top": 0,
+            "ratings": [],
+            "ratings_count": 0,
+            "reviews_text_count": 0,
+            "added": 0,
+            "added_by_status": {},
+            "metacritic": null,
+            "playtime": 0,
+            "suggestions_count": 41,
+            "updated": "2019-06-25T21:05:14",
+            "user_game": null,
+            "reviews_count": 0,
+            "community_rating": 0,
+            "saturated_color": "0f0f0f",
+            "dominant_color": "0f0f0f",
+            "platforms": [
+                {
+                    "platform": {
+                        "id": 3,
+                        "name": "iOS",
+                        "slug": "ios",
+                        "image": null,
+                        "year_end": null,
+                        "year_start": null,
+                        "games_count": 77241,
+                        "image_background": "https://media.rawg.io/media/games/be0/be084b850302abe81675bc4ffc08a0d0.jpg"
+                    },
+                    "released_at": "2030-01-01",
+                    "requirements_en": null,
+                    "requirements_ru": null
+                },
+                {
+                    "platform": {
+                        "id": 21,
+                        "name": "Android",
+                        "slug": "android",
+                        "image": null,
+                        "year_end": null,
+                        "year_start": null,
+                        "games_count": 52342,
+                        "image_background": "https://media.rawg.io/media/games/b4e/b4e4c73d5aa4ec66bbf75375c4847a2b.jpg"
+                    },
+                    "released_at": "2030-01-01",
+                    "requirements_en": null,
+                    "requirements_ru": null
+                }
+            ],
+            "parent_platforms": [
+                {
+                    "platform": {
+                        "id": 4,
+                        "name": "iOS",
+                        "slug": "ios"
+                    }
+                },
+                {
+                    "platform": {
+                        "id": 8,
+                        "name": "Android",
+                        "slug": "android"
+                    }
+                }
+            ],
+            "genres": [
+                {
+                    "id": 10,
+                    "name": "Strategy",
+                    "slug": "strategy",
+                    "games_count": 55741,
+                    "image_background": "https://media.rawg.io/media/games/e44/e445335e611b4ccf03af71fffcbd30a4.jpg"
+                },
+                {
+                    "id": 11,
+                    "name": "Arcade",
+                    "slug": "arcade",
+                    "games_count": 22654,
+                    "image_background": "https://media.rawg.io/media/games/23d/23d78acedbb5f40c9fb64e73af5af65d.jpg"
+                }
+            ],
+            "stores": [],
+            "clip": null,
+            "tags": [],
+            "esrb_rating": null,
+            "short_screenshots": [
+                {
+                    "id": -1,
+                    "image": "https://media.rawg.io/media/screenshots/ddf/ddfef922149b72afbf3805d911756cec.jpg"
+                },
+                {
+                    "id": 1976553,
+                    "image": "https://media.rawg.io/media/screenshots/ddf/ddfef922149b72afbf3805d911756cec.jpg"
+                }
+            ]
+        },
+        {
+            "id": 335701,
+            "slug": "samurai-rising",
+            "name": "Samurai Rising",
+            "released": "2030-01-01",
+            "tba": false,
+            "background_image": null,
+            "rating": 0.0,
+            "rating_top": 0,
+            "ratings": [],
+            "ratings_count": 0,
+            "reviews_text_count": 0,
+            "added": 1,
+            "added_by_status": {
+                "owned": 1
+            },
+            "metacritic": null,
+            "playtime": 0,
+            "suggestions_count": 0,
+            "updated": "2019-06-25T21:02:12",
+            "user_game": null,
+            "reviews_count": 0,
+            "community_rating": 0,
+            "saturated_color": "0f0f0f",
+            "dominant_color": "0f0f0f",
+            "platforms": [
+                {
+                    "platform": {
+                        "id": 3,
+                        "name": "iOS",
+                        "slug": "ios",
+                        "image": null,
+                        "year_end": null,
+                        "year_start": null,
+                        "games_count": 77241,
+                        "image_background": "https://media.rawg.io/media/games/be0/be084b850302abe81675bc4ffc08a0d0.jpg"
+                    },
+                    "released_at": "2030-01-01",
+                    "requirements_en": null,
+                    "requirements_ru": null
+                },
+                {
+                    "platform": {
+                        "id": 21,
+                        "name": "Android",
+                        "slug": "android",
+                        "image": null,
+                        "year_end": null,
+                        "year_start": null,
+                        "games_count": 52342,
+                        "image_background": "https://media.rawg.io/media/games/b4e/b4e4c73d5aa4ec66bbf75375c4847a2b.jpg"
+                    },
+                    "released_at": "2030-01-01",
+                    "requirements_en": null,
+                    "requirements_ru": null
+                }
+            ],
+            "parent_platforms": [
+                {
+                    "platform": {
+                        "id": 4,
+                        "name": "iOS",
+                        "slug": "ios"
+                    }
+                },
+                {
+                    "platform": {
+                        "id": 8,
+                        "name": "Android",
+                        "slug": "android"
+                    }
+                }
+            ],
+            "genres": [
+                {
+                    "id": 4,
+                    "name": "Action",
+                    "slug": "action",
+                    "games_count": 178957,
+                    "image_background": "https://media.rawg.io/media/games/b45/b45575f34285f2c4479c9a5f719d972e.jpg"
+                },
+                {
+                    "id": 5,
+                    "name": "RPG",
+                    "slug": "role-playing-games-rpg",
+                    "games_count": 55388,
+                    "image_background": "https://media.rawg.io/media/games/c6b/c6bfece1daf8d06bc0a60632ac78e5bf.jpg"
+                }
+            ],
+            "stores": [],
+            "clip": null,
+            "tags": [],
+            "esrb_rating": null,
+            "short_screenshots": []
+        },
+        {
+            "id": 335430,
+            "slug": "project-stalin",
+            "name": "Project Stalin",
+            "released": "2030-01-01",
+            "tba": false,
+            "background_image": null,
+            "rating": 0.0,
+            "rating_top": 0,
+            "ratings": [],
+            "ratings_count": 0,
+            "reviews_text_count": 0,
+            "added": 0,
+            "added_by_status": null,
+            "metacritic": null,
+            "playtime": 0,
+            "suggestions_count": 0,
+            "updated": "2019-06-25T18:54:14",
+            "user_game": null,
+            "reviews_count": 0,
+            "community_rating": 0,
+            "saturated_color": "0f0f0f",
+            "dominant_color": "0f0f0f",
+            "platforms": [
+                {
+                    "platform": {
+                        "id": 4,
+                        "name": "PC",
+                        "slug": "pc",
+                        "image": null,
+                        "year_end": null,
+                        "year_start": null,
+                        "games_count": 527448,
+                        "image_background": "https://media.rawg.io/media/games/562/562553814dd54e001a541e4ee83a591c.jpg"
+                    },
+                    "released_at": "2030-01-01",
+                    "requirements_en": null,
+                    "requirements_ru": null
+                }
+            ],
+            "parent_platforms": [
+                {
+                    "platform": {
+                        "id": 1,
+                        "name": "PC",
+                        "slug": "pc"
+                    }
+                }
+            ],
+            "genres": [
+                {
+                    "id": 10,
+                    "name": "Strategy",
+                    "slug": "strategy",
+                    "games_count": 55741,
+                    "image_background": "https://media.rawg.io/media/games/e44/e445335e611b4ccf03af71fffcbd30a4.jpg"
+                }
+            ],
+            "stores": [],
+            "clip": null,
+            "tags": [],
+            "esrb_rating": null,
+            "short_screenshots": []
+        },
+        {
+            "id": 335418,
+            "slug": "project-blt",
+            "name": "BLT",
+            "released": "2030-01-01",
+            "tba": false,
+            "background_image": null,
+            "rating": 0.0,
+            "rating_top": 0,
+            "ratings": [],
+            "ratings_count": 0,
+            "reviews_text_count": 0,
+            "added": 0,
+            "added_by_status": {},
+            "metacritic": null,
+            "playtime": 0,
+            "suggestions_count": 0,
+            "updated": "2019-06-25T18:47:11",
+            "user_game": null,
+            "reviews_count": 0,
+            "community_rating": 0,
+            "saturated_color": "0f0f0f",
+            "dominant_color": "0f0f0f",
+            "platforms": [
+                {
+                    "platform": {
+                        "id": 4,
+                        "name": "PC",
+                        "slug": "pc",
+                        "image": null,
+                        "year_end": null,
+                        "year_start": null,
+                        "games_count": 527448,
+                        "image_background": "https://media.rawg.io/media/games/562/562553814dd54e001a541e4ee83a591c.jpg"
+                    },
+                    "released_at": "2030-01-01",
+                    "requirements_en": null,
+                    "requirements_ru": null
+                }
+            ],
+            "parent_platforms": [
+                {
+                    "platform": {
+                        "id": 1,
+                        "name": "PC",
+                        "slug": "pc"
+                    }
+                }
+            ],
+            "genres": [
+                {
+                    "id": 11,
+                    "name": "Arcade",
+                    "slug": "arcade",
+                    "games_count": 22654,
+                    "image_background": "https://media.rawg.io/media/games/23d/23d78acedbb5f40c9fb64e73af5af65d.jpg"
+                }
+            ],
+            "stores": [],
+            "clip": null,
+            "tags": [],
+            "esrb_rating": null,
+            "short_screenshots": []
+        },
+        {
+            "id": 335358,
+            "slug": "pokemon-world",
+            "name": "Pokémon World",
+            "released": "2030-01-01",
+            "tba": false,
+            "background_image": null,
+            "rating": 0.0,
+            "rating_top": 0,
+            "ratings": [
+                {
+                    "id": 1,
+                    "title": "skip",
+                    "count": 1,
+                    "percent": 100.0
+                }
+            ],
+            "ratings_count": 1,
+            "reviews_text_count": 0,
+            "added": 0,
+            "added_by_status": null,
+            "metacritic": null,
+            "playtime": 0,
+            "suggestions_count": 0,
+            "updated": "2023-04-27T08:24:18",
+            "user_game": null,
+            "reviews_count": 1,
+            "community_rating": 0,
+            "saturated_color": "0f0f0f",
+            "dominant_color": "0f0f0f",
+            "platforms": [
+                {
+                    "platform": {
+                        "id": 4,
+                        "name": "PC",
+                        "slug": "pc",
+                        "image": null,
+                        "year_end": null,
+                        "year_start": null,
+                        "games_count": 527448,
+                        "image_background": "https://media.rawg.io/media/games/562/562553814dd54e001a541e4ee83a591c.jpg"
+                    },
+                    "released_at": "2030-01-01",
+                    "requirements_en": null,
+                    "requirements_ru": null
+                }
+            ],
+            "parent_platforms": [
+                {
+                    "platform": {
+                        "id": 1,
+                        "name": "PC",
+                        "slug": "pc"
+                    }
+                }
+            ],
+            "genres": [
+                {
+                    "id": 5,
+                    "name": "RPG",
+                    "slug": "role-playing-games-rpg",
+                    "games_count": 55388,
+                    "image_background": "https://media.rawg.io/media/games/c6b/c6bfece1daf8d06bc0a60632ac78e5bf.jpg"
+                }
+            ],
+            "stores": [],
+            "clip": null,
+            "tags": [],
+            "esrb_rating": null,
+            "short_screenshots": []
+        },
+        {
+            "id": 335182,
+            "slug": "orbis-jagga",
+            "name": "Orbis Jagga",
+            "released": "2030-01-01",
+            "tba": false,
+            "background_image": null,
+            "rating": 0.0,
+            "rating_top": 0,
+            "ratings": [],
+            "ratings_count": 0,
+            "reviews_text_count": 0,
+            "added": 0,
+            "added_by_status": {},
+            "metacritic": null,
+            "playtime": 0,
+            "suggestions_count": 0,
+            "updated": "2019-06-25T16:53:40",
+            "user_game": null,
+            "reviews_count": 0,
+            "community_rating": 0,
+            "saturated_color": "0f0f0f",
+            "dominant_color": "0f0f0f",
+            "platforms": [
+                {
+                    "platform": {
+                        "id": 4,
+                        "name": "PC",
+                        "slug": "pc",
+                        "image": null,
+                        "year_end": null,
+                        "year_start": null,
+                        "games_count": 527448,
+                        "image_background": "https://media.rawg.io/media/games/562/562553814dd54e001a541e4ee83a591c.jpg"
+                    },
+                    "released_at": "2030-01-01",
+                    "requirements_en": null,
+                    "requirements_ru": null
+                }
+            ],
+            "parent_platforms": [
+                {
+                    "platform": {
+                        "id": 1,
+                        "name": "PC",
+                        "slug": "pc"
+                    }
+                }
+            ],
+            "genres": [
+                {
+                    "id": 5,
+                    "name": "RPG",
+                    "slug": "role-playing-games-rpg",
+                    "games_count": 55388,
+                    "image_background": "https://media.rawg.io/media/games/c6b/c6bfece1daf8d06bc0a60632ac78e5bf.jpg"
+                }
+            ],
+            "stores": [],
+            "clip": null,
+            "tags": [],
+            "esrb_rating": null,
+            "short_screenshots": []
+        },
+        {
+            "id": 334987,
+            "slug": "mutantchronicles",
+            "name": "Mutant Chronicles",
+            "released": "2030-01-01",
+            "tba": false,
+            "background_image": null,
+            "rating": 0.0,
+            "rating_top": 0,
+            "ratings": [],
+            "ratings_count": 0,
+            "reviews_text_count": 0,
+            "added": 0,
+            "added_by_status": null,
+            "metacritic": null,
+            "playtime": 0,
+            "suggestions_count": 0,
+            "updated": "2019-06-25T15:15:43",
+            "user_game": null,
+            "reviews_count": 0,
+            "community_rating": 0,
+            "saturated_color": "0f0f0f",
+            "dominant_color": "0f0f0f",
+            "platforms": [
+                {
+                    "platform": {
+                        "id": 4,
+                        "name": "PC",
+                        "slug": "pc",
+                        "image": null,
+                        "year_end": null,
+                        "year_start": null,
+                        "games_count": 527448,
+                        "image_background": "https://media.rawg.io/media/games/562/562553814dd54e001a541e4ee83a591c.jpg"
+                    },
+                    "released_at": "2030-01-01",
+                    "requirements_en": null,
+                    "requirements_ru": null
+                }
+            ],
+            "parent_platforms": [
+                {
+                    "platform": {
+                        "id": 1,
+                        "name": "PC",
+                        "slug": "pc"
+                    }
+                }
+            ],
+            "genres": [
+                {
+                    "id": 4,
+                    "name": "Action",
+                    "slug": "action",
+                    "games_count": 178957,
+                    "image_background": "https://media.rawg.io/media/games/b45/b45575f34285f2c4479c9a5f719d972e.jpg"
+                },
+                {
+                    "id": 5,
+                    "name": "RPG",
+                    "slug": "role-playing-games-rpg",
+                    "games_count": 55388,
+                    "image_background": "https://media.rawg.io/media/games/c6b/c6bfece1daf8d06bc0a60632ac78e5bf.jpg"
+                }
+            ],
+            "stores": [],
+            "clip": null,
+            "tags": [],
+            "esrb_rating": null,
+            "short_screenshots": []
+        },
+        {
+            "id": 334512,
+            "slug": "last-crown-haunting-of-hallowed-isle",
+            "name": "The Last Crown: Haunting of Hallowed Isle",
+            "released": "2030-01-01",
+            "tba": false,
+            "background_image": null,
+            "rating": 0.0,
+            "rating_top": 0,
+            "ratings": [],
+            "ratings_count": 0,
+            "reviews_text_count": 0,
+            "added": 1,
+            "added_by_status": {
+                "owned": 1
+            },
+            "metacritic": null,
+            "playtime": 0,
+            "suggestions_count": 0,
+            "updated": "2019-06-25T10:55:32",
+            "user_game": null,
+            "reviews_count": 0,
+            "community_rating": 0,
+            "saturated_color": "0f0f0f",
+            "dominant_color": "0f0f0f",
+            "platforms": [
+                {
+                    "platform": {
+                        "id": 4,
+                        "name": "PC",
+                        "slug": "pc",
+                        "image": null,
+                        "year_end": null,
+                        "year_start": null,
+                        "games_count": 527448,
+                        "image_background": "https://media.rawg.io/media/games/562/562553814dd54e001a541e4ee83a591c.jpg"
+                    },
+                    "released_at": "2030-01-01",
+                    "requirements_en": null,
+                    "requirements_ru": null
+                }
+            ],
+            "parent_platforms": [
+                {
+                    "platform": {
+                        "id": 1,
+                        "name": "PC",
+                        "slug": "pc"
+                    }
+                }
+            ],
+            "genres": [
+                {
+                    "id": 3,
+                    "name": "Adventure",
+                    "slug": "adventure",
+                    "games_count": 138531,
+                    "image_background": "https://media.rawg.io/media/games/879/879c930f9c6787c920153fa2df452eb3.jpg"
+                }
+            ],
+            "stores": [],
+            "clip": null,
+            "tags": [],
+            "esrb_rating": null,
+            "short_screenshots": []
+        },
+        {
+            "id": 334460,
+            "slug": "kori-kori",
+            "name": "Kori Kori",
+            "released": "2030-01-01",
+            "tba": false,
+            "background_image": null,
+            "rating": 0.0,
+            "rating_top": 0,
+            "ratings": [],
+            "ratings_count": 0,
+            "reviews_text_count": 0,
+            "added": 1,
+            "added_by_status": {
+                "toplay": 1
+            },
+            "metacritic": null,
+            "playtime": 0,
+            "suggestions_count": 0,
+            "updated": "2019-06-25T10:30:38",
+            "user_game": null,
+            "reviews_count": 0,
+            "community_rating": 0,
+            "saturated_color": "0f0f0f",
+            "dominant_color": "0f0f0f",
+            "platforms": [
+                {
+                    "platform": {
+                        "id": 3,
+                        "name": "iOS",
+                        "slug": "ios",
+                        "image": null,
+                        "year_end": null,
+                        "year_start": null,
+                        "games_count": 77241,
+                        "image_background": "https://media.rawg.io/media/games/be0/be084b850302abe81675bc4ffc08a0d0.jpg"
+                    },
+                    "released_at": "2030-01-01",
+                    "requirements_en": null,
+                    "requirements_ru": null
+                },
+                {
+                    "platform": {
+                        "id": 21,
+                        "name": "Android",
+                        "slug": "android",
+                        "image": null,
+                        "year_end": null,
+                        "year_start": null,
+                        "games_count": 52342,
+                        "image_background": "https://media.rawg.io/media/games/b4e/b4e4c73d5aa4ec66bbf75375c4847a2b.jpg"
+                    },
+                    "released_at": "2030-01-01",
+                    "requirements_en": null,
+                    "requirements_ru": null
+                }
+            ],
+            "parent_platforms": [
+                {
+                    "platform": {
+                        "id": 4,
+                        "name": "iOS",
+                        "slug": "ios"
+                    }
+                },
+                {
+                    "platform": {
+                        "id": 8,
+                        "name": "Android",
+                        "slug": "android"
+                    }
+                }
+            ],
+            "genres": [
+                {
+                    "id": 7,
+                    "name": "Puzzle",
+                    "slug": "puzzle",
+                    "games_count": 97264,
+                    "image_background": "https://media.rawg.io/media/games/cfe/cfe114c081281960bd79ace5209c0a4a.jpg"
+                }
+            ],
+            "stores": [],
+            "clip": null,
+            "tags": [],
+            "esrb_rating": null,
+            "short_screenshots": []
+        },
+        {
+            "id": 334455,
+            "slug": "kommando-oceanview-mission",
+            "name": "Kommando: Oceanview Mission",
+            "released": "2030-01-01",
+            "tba": false,
+            "background_image": null,
+            "rating": 0.0,
+            "rating_top": 0,
+            "ratings": [],
+            "ratings_count": 0,
+            "reviews_text_count": 0,
+            "added": 0,
+            "added_by_status": null,
+            "metacritic": null,
+            "playtime": 0,
+            "suggestions_count": 0,
+            "updated": "2019-06-25T10:29:25",
+            "user_game": null,
+            "reviews_count": 0,
+            "community_rating": 0,
+            "saturated_color": "0f0f0f",
+            "dominant_color": "0f0f0f",
+            "platforms": [
+                {
+                    "platform": {
+                        "id": 21,
+                        "name": "Android",
+                        "slug": "android",
+                        "image": null,
+                        "year_end": null,
+                        "year_start": null,
+                        "games_count": 52342,
+                        "image_background": "https://media.rawg.io/media/games/b4e/b4e4c73d5aa4ec66bbf75375c4847a2b.jpg"
+                    },
+                    "released_at": "2030-01-01",
+                    "requirements_en": null,
+                    "requirements_ru": null
+                }
+            ],
+            "parent_platforms": [
+                {
+                    "platform": {
+                        "id": 8,
+                        "name": "Android",
+                        "slug": "android"
+                    }
+                }
+            ],
+            "genres": [
+                {
+                    "id": 4,
+                    "name": "Action",
+                    "slug": "action",
+                    "games_count": 178957,
+                    "image_background": "https://media.rawg.io/media/games/b45/b45575f34285f2c4479c9a5f719d972e.jpg"
+                },
+                {
+                    "id": 2,
+                    "name": "Shooter",
+                    "slug": "shooter",
+                    "games_count": 59469,
+                    "image_background": "https://media.rawg.io/media/games/15c/15c95a4915f88a3e89c821526afe05fc.jpg"
+                }
+            ],
+            "stores": [],
+            "clip": null,
+            "tags": [],
+            "esrb_rating": null,
+            "short_screenshots": []
+        },
+        {
+            "id": 334404,
+            "slug": "kinect-nat-geo-tv-jumbo-squid",
+            "name": "Kinect Nat Geo TV: Jumbo Squid",
+            "released": "2030-01-01",
+            "tba": false,
+            "background_image": null,
+            "rating": 0.0,
+            "rating_top": 0,
+            "ratings": [],
+            "ratings_count": 0,
+            "reviews_text_count": 0,
+            "added": 1,
+            "added_by_status": {
+                "owned": 1
+            },
+            "metacritic": null,
+            "playtime": 0,
+            "suggestions_count": 0,
+            "updated": "2019-06-25T10:08:01",
+            "user_game": null,
+            "reviews_count": 0,
+            "community_rating": 0,
+            "saturated_color": "0f0f0f",
+            "dominant_color": "0f0f0f",
+            "platforms": [
+                {
+                    "platform": {
+                        "id": 14,
+                        "name": "Xbox 360",
+                        "slug": "xbox360",
+                        "image": null,
+                        "year_end": null,
+                        "year_start": null,
+                        "games_count": 2799,
+                        "image_background": "https://media.rawg.io/media/games/f46/f466571d536f2e3ea9e815ad17177501.jpg"
+                    },
+                    "released_at": "2030-01-01",
+                    "requirements_en": null,
+                    "requirements_ru": null
+                }
+            ],
+            "parent_platforms": [
+                {
+                    "platform": {
+                        "id": 3,
+                        "name": "Xbox",
+                        "slug": "xbox"
+                    }
+                }
+            ],
+            "genres": [
+                {
+                    "id": 34,
+                    "name": "Educational",
+                    "slug": "educational",
+                    "games_count": 15673,
+                    "image_background": "https://media.rawg.io/media/games/6d3/6d33014a4ed48a19c30a77ead5a0f62e.jpg"
+                }
+            ],
+            "stores": [],
+            "clip": null,
+            "tags": [],
+            "esrb_rating": null,
+            "short_screenshots": []
+        },
+        {
+            "id": 334290,
+            "slug": "jetpack-2",
+            "name": "Jetpack 2",
+            "released": "2030-01-01",
+            "tba": false,
+            "background_image": null,
+            "rating": 0.0,
+            "rating_top": 0,
+            "ratings": [],
+            "ratings_count": 0,
+            "reviews_text_count": 0,
+            "added": 0,
+            "added_by_status": null,
+            "metacritic": null,
+            "playtime": 0,
+            "suggestions_count": 0,
+            "updated": "2019-06-25T09:16:16",
+            "user_game": null,
+            "reviews_count": 0,
+            "community_rating": 0,
+            "saturated_color": "0f0f0f",
+            "dominant_color": "0f0f0f",
+            "platforms": [
+                {
+                    "platform": {
+                        "id": 4,
+                        "name": "PC",
+                        "slug": "pc",
+                        "image": null,
+                        "year_end": null,
+                        "year_start": null,
+                        "games_count": 527448,
+                        "image_background": "https://media.rawg.io/media/games/562/562553814dd54e001a541e4ee83a591c.jpg"
+                    },
+                    "released_at": "2030-01-01",
+                    "requirements_en": null,
+                    "requirements_ru": null
+                }
+            ],
+            "parent_platforms": [
+                {
+                    "platform": {
+                        "id": 1,
+                        "name": "PC",
+                        "slug": "pc"
+                    }
+                }
+            ],
+            "genres": [
+                {
+                    "id": 11,
+                    "name": "Arcade",
+                    "slug": "arcade",
+                    "games_count": 22654,
+                    "image_background": "https://media.rawg.io/media/games/23d/23d78acedbb5f40c9fb64e73af5af65d.jpg"
+                }
+            ],
+            "stores": [],
+            "clip": null,
+            "tags": [],
+            "esrb_rating": null,
+            "short_screenshots": []
+        },
+        {
+            "id": 333881,
+            "slug": "great-voyage",
+            "name": "Great Voyage",
+            "released": "2030-01-01",
+            "tba": false,
+            "background_image": null,
+            "rating": 0.0,
+            "rating_top": 0,
+            "ratings": [],
+            "ratings_count": 0,
+            "reviews_text_count": 0,
+            "added": 0,
+            "added_by_status": null,
+            "metacritic": null,
+            "playtime": 0,
+            "suggestions_count": 0,
+            "updated": "2019-06-25T06:55:44",
+            "user_game": null,
+            "reviews_count": 0,
+            "community_rating": 0,
+            "saturated_color": "0f0f0f",
+            "dominant_color": "0f0f0f",
+            "platforms": [
+                {
+                    "platform": {
+                        "id": 3,
+                        "name": "iOS",
+                        "slug": "ios",
+                        "image": null,
+                        "year_end": null,
+                        "year_start": null,
+                        "games_count": 77241,
+                        "image_background": "https://media.rawg.io/media/games/be0/be084b850302abe81675bc4ffc08a0d0.jpg"
+                    },
+                    "released_at": "2030-01-01",
+                    "requirements_en": null,
+                    "requirements_ru": null
+                },
+                {
+                    "platform": {
+                        "id": 21,
+                        "name": "Android",
+                        "slug": "android",
+                        "image": null,
+                        "year_end": null,
+                        "year_start": null,
+                        "games_count": 52342,
+                        "image_background": "https://media.rawg.io/media/games/b4e/b4e4c73d5aa4ec66bbf75375c4847a2b.jpg"
+                    },
+                    "released_at": "2030-01-01",
+                    "requirements_en": null,
+                    "requirements_ru": null
+                }
+            ],
+            "parent_platforms": [
+                {
+                    "platform": {
+                        "id": 4,
+                        "name": "iOS",
+                        "slug": "ios"
+                    }
+                },
+                {
+                    "platform": {
+                        "id": 8,
+                        "name": "Android",
+                        "slug": "android"
+                    }
+                }
+            ],
+            "genres": [
+                {
+                    "id": 14,
+                    "name": "Simulation",
+                    "slug": "simulation",
+                    "games_count": 68868,
+                    "image_background": "https://media.rawg.io/media/games/78d/78dfae12fb8c5b16cd78648553071e0a.jpg"
+                },
+                {
+                    "id": 59,
+                    "name": "Massively Multiplayer",
+                    "slug": "massively-multiplayer",
+                    "games_count": 3566,
+                    "image_background": "https://media.rawg.io/media/games/1bd/1bd2657b81eb0c99338120ad444b24ff.jpg"
+                }
+            ],
+            "stores": [],
+            "clip": null,
+            "tags": [],
+            "esrb_rating": null,
+            "short_screenshots": []
+        },
+        {
+            "id": 333751,
+            "slug": "galapagos",
+            "name": "Galapagos",
+            "released": "2030-01-01",
+            "tba": true,
+            "background_image": "https://media.rawg.io/media/screenshots/3af/3afa3181fb8b67267ab6dec8a5d916df.jpg",
+            "rating": 0.0,
+            "rating_top": 0,
+            "ratings": [],
+            "ratings_count": 0,
+            "reviews_text_count": 0,
+            "added": 5,
+            "added_by_status": {
+                "owned": 2,
+                "toplay": 3
+            },
+            "metacritic": null,
+            "playtime": 0,
+            "suggestions_count": 172,
+            "updated": "2019-07-17T09:30:29",
+            "user_game": null,
+            "reviews_count": 0,
+            "community_rating": 0,
+            "saturated_color": "0f0f0f",
+            "dominant_color": "0f0f0f",
+            "platforms": [
+                {
+                    "platform": {
+                        "id": 7,
+                        "name": "Nintendo Switch",
+                        "slug": "nintendo-switch",
+                        "image": null,
+                        "year_end": null,
+                        "year_start": null,
+                        "games_count": 5433,
+                        "image_background": "https://media.rawg.io/media/games/587/587588c64afbff80e6f444eb2e46f9da.jpg"
+                    },
+                    "released_at": null,
+                    "requirements_en": null,
+                    "requirements_ru": null
+                },
+                {
+                    "platform": {
+                        "id": 18,
+                        "name": "PlayStation 4",
+                        "slug": "playstation4",
+                        "image": null,
+                        "year_end": null,
+                        "year_start": null,
+                        "games_count": 6794,
+                        "image_background": "https://media.rawg.io/media/games/021/021c4e21a1824d2526f925eff6324653.jpg"
+                    },
+                    "released_at": null,
+                    "requirements_en": null,
+                    "requirements_ru": null
+                }
+            ],
+            "parent_platforms": [
+                {
+                    "platform": {
+                        "id": 2,
+                        "name": "PlayStation",
+                        "slug": "playstation"
+                    }
+                },
+                {
+                    "platform": {
+                        "id": 7,
+                        "name": "Nintendo",
+                        "slug": "nintendo"
+                    }
+                }
+            ],
+            "genres": [
+                {
+                    "id": 5,
+                    "name": "RPG",
+                    "slug": "role-playing-games-rpg",
+                    "games_count": 55388,
+                    "image_background": "https://media.rawg.io/media/games/c6b/c6bfece1daf8d06bc0a60632ac78e5bf.jpg"
+                }
+            ],
+            "stores": [],
+            "clip": null,
+            "tags": [],
+            "esrb_rating": null,
+            "short_screenshots": [
+                {
+                    "id": -1,
+                    "image": "https://media.rawg.io/media/screenshots/3af/3afa3181fb8b67267ab6dec8a5d916df.jpg"
+                },
+                {
+                    "id": 1995093,
+                    "image": "https://media.rawg.io/media/screenshots/6fc/6fc3128cef4d02f6af2a81b551858b1d.jpg"
+                },
+                {
+                    "id": 1995094,
+                    "image": "https://media.rawg.io/media/screenshots/af4/af4bfe6d983bcef5eec0dfa934200e8d.jpg"
+                },
+                {
+                    "id": 1995095,
+                    "image": "https://media.rawg.io/media/screenshots/d3f/d3f923578f2e1ae1fd109622c91c1e6b.jpg"
+                },
+                {
+                    "id": 1995096,
+                    "image": "https://media.rawg.io/media/screenshots/3af/3afa3181fb8b67267ab6dec8a5d916df.jpg"
+                }
+            ]
+        },
+        {
+            "id": 333661,
+            "slug": "fortisia",
+            "name": "Fortisia",
+            "released": "2030-01-01",
+            "tba": false,
+            "background_image": "https://media.rawg.io/media/screenshots/331/33153ad4f4c199beef19f0b1b7b673b7.jpg",
+            "rating": 0.0,
+            "rating_top": 0,
+            "ratings": [
+                {
+                    "id": 1,
+                    "title": "skip",
+                    "count": 1,
+                    "percent": 100.0
+                }
+            ],
+            "ratings_count": 1,
+            "reviews_text_count": 0,
+            "added": 1,
+            "added_by_status": {
+                "dropped": 1
+            },
+            "metacritic": null,
+            "playtime": 0,
+            "suggestions_count": 220,
+            "updated": "2023-11-25T20:29:48",
+            "user_game": null,
+            "reviews_count": 1,
+            "community_rating": 0,
+            "saturated_color": "0f0f0f",
+            "dominant_color": "0f0f0f",
+            "platforms": [
+                {
+                    "platform": {
+                        "id": 3,
+                        "name": "iOS",
+                        "slug": "ios",
+                        "image": null,
+                        "year_end": null,
+                        "year_start": null,
+                        "games_count": 77241,
+                        "image_background": "https://media.rawg.io/media/games/be0/be084b850302abe81675bc4ffc08a0d0.jpg"
+                    },
+                    "released_at": "2030-01-01",
+                    "requirements_en": null,
+                    "requirements_ru": null
+                },
+                {
+                    "platform": {
+                        "id": 21,
+                        "name": "Android",
+                        "slug": "android",
+                        "image": null,
+                        "year_end": null,
+                        "year_start": null,
+                        "games_count": 52342,
+                        "image_background": "https://media.rawg.io/media/games/b4e/b4e4c73d5aa4ec66bbf75375c4847a2b.jpg"
+                    },
+                    "released_at": "2030-01-01",
+                    "requirements_en": null,
+                    "requirements_ru": null
+                }
+            ],
+            "parent_platforms": [
+                {
+                    "platform": {
+                        "id": 4,
+                        "name": "iOS",
+                        "slug": "ios"
+                    }
+                },
+                {
+                    "platform": {
+                        "id": 8,
+                        "name": "Android",
+                        "slug": "android"
+                    }
+                }
+            ],
+            "genres": [
+                {
+                    "id": 4,
+                    "name": "Action",
+                    "slug": "action",
+                    "games_count": 178957,
+                    "image_background": "https://media.rawg.io/media/games/b45/b45575f34285f2c4479c9a5f719d972e.jpg"
+                },
+                {
+                    "id": 5,
+                    "name": "RPG",
+                    "slug": "role-playing-games-rpg",
+                    "games_count": 55388,
+                    "image_background": "https://media.rawg.io/media/games/c6b/c6bfece1daf8d06bc0a60632ac78e5bf.jpg"
+                }
+            ],
+            "stores": [],
+            "clip": null,
+            "tags": [],
+            "esrb_rating": null,
+            "short_screenshots": [
+                {
+                    "id": -1,
+                    "image": "https://media.rawg.io/media/screenshots/331/33153ad4f4c199beef19f0b1b7b673b7.jpg"
+                },
+                {
+                    "id": 1975327,
+                    "image": "https://media.rawg.io/media/screenshots/e54/e54c94e4eb9ba765874ee1b9bbf03809.jpg"
+                },
+                {
+                    "id": 1975328,
+                    "image": "https://media.rawg.io/media/screenshots/007/0079ddd651d64a4ab705c373b140eca4.jpg"
+                },
+                {
+                    "id": 1975329,
+                    "image": "https://media.rawg.io/media/screenshots/37f/37f624e94b358821b98aa4bdf33fd69f.jpg"
+                },
+                {
+                    "id": 1975330,
+                    "image": "https://media.rawg.io/media/screenshots/331/33153ad4f4c199beef19f0b1b7b673b7.jpg"
+                }
+            ]
+        },
+        {
+            "id": 333391,
+            "slug": "endless-cylinder",
+            "name": "The Endless Cylinder",
+            "released": "2030-01-01",
+            "tba": false,
+            "background_image": null,
+            "rating": 0.0,
+            "rating_top": 0,
+            "ratings": [],
+            "ratings_count": 0,
+            "reviews_text_count": 0,
+            "added": 1,
+            "added_by_status": {
+                "toplay": 1
+            },
+            "metacritic": null,
+            "playtime": 0,
+            "suggestions_count": 0,
+            "updated": "2019-06-25T03:27:06",
+            "user_game": null,
+            "reviews_count": 0,
+            "community_rating": 0,
+            "saturated_color": "0f0f0f",
+            "dominant_color": "0f0f0f",
+            "platforms": [
+                {
+                    "platform": {
+                        "id": 4,
+                        "name": "PC",
+                        "slug": "pc",
+                        "image": null,
+                        "year_end": null,
+                        "year_start": null,
+                        "games_count": 527448,
+                        "image_background": "https://media.rawg.io/media/games/562/562553814dd54e001a541e4ee83a591c.jpg"
+                    },
+                    "released_at": "2030-01-01",
+                    "requirements_en": null,
+                    "requirements_ru": null
+                }
+            ],
+            "parent_platforms": [
+                {
+                    "platform": {
+                        "id": 1,
+                        "name": "PC",
+                        "slug": "pc"
+                    }
+                }
+            ],
+            "genres": [
+                {
+                    "id": 3,
+                    "name": "Adventure",
+                    "slug": "adventure",
+                    "games_count": 138531,
+                    "image_background": "https://media.rawg.io/media/games/879/879c930f9c6787c920153fa2df452eb3.jpg"
+                }
+            ],
+            "stores": [],
+            "clip": null,
+            "tags": [],
+            "esrb_rating": null,
+            "short_screenshots": []
+        },
+        {
+            "id": 333316,
+            "slug": "dynasty-warriors-mobile",
+            "name": "Dynasty Warriors Mobile",
+            "released": "2030-01-01",
+            "tba": false,
+            "background_image": null,
+            "rating": 0.0,
+            "rating_top": 0,
+            "ratings": [],
+            "ratings_count": 0,
+            "reviews_text_count": 0,
+            "added": 0,
+            "added_by_status": null,
+            "metacritic": null,
+            "playtime": 0,
+            "suggestions_count": 0,
+            "updated": "2019-06-25T02:52:34",
+            "user_game": null,
+            "reviews_count": 0,
+            "community_rating": 0,
+            "saturated_color": "0f0f0f",
+            "dominant_color": "0f0f0f",
+            "platforms": [
+                {
+                    "platform": {
+                        "id": 3,
+                        "name": "iOS",
+                        "slug": "ios",
+                        "image": null,
+                        "year_end": null,
+                        "year_start": null,
+                        "games_count": 77241,
+                        "image_background": "https://media.rawg.io/media/games/be0/be084b850302abe81675bc4ffc08a0d0.jpg"
+                    },
+                    "released_at": "2030-01-01",
+                    "requirements_en": null,
+                    "requirements_ru": null
+                }
+            ],
+            "parent_platforms": [
+                {
+                    "platform": {
+                        "id": 4,
+                        "name": "iOS",
+                        "slug": "ios"
+                    }
+                }
+            ],
+            "genres": [
+                {
+                    "id": 11,
+                    "name": "Arcade",
+                    "slug": "arcade",
+                    "games_count": 22654,
+                    "image_background": "https://media.rawg.io/media/games/23d/23d78acedbb5f40c9fb64e73af5af65d.jpg"
+                },
+                {
+                    "id": 6,
+                    "name": "Fighting",
+                    "slug": "fighting",
+                    "games_count": 11752,
+                    "image_background": "https://media.rawg.io/media/games/7ca/7ca90d463ea0c0252e7d01afe897ffa8.jpg"
+                }
+            ],
+            "stores": [],
+            "clip": null,
+            "tags": [],
+            "esrb_rating": null,
+            "short_screenshots": []
+        },
+        {
+            "id": 332657,
+            "slug": "camelot-unchained",
+            "name": "Camelot Unchained",
+            "released": "2030-01-01",
+            "tba": false,
+            "background_image": "https://media.rawg.io/media/screenshots/8cc/8ccb840b7f2564f6c1ac03ce1ff95032.jpg",
+            "rating": 0.0,
+            "rating_top": 0,
+            "ratings": [],
+            "ratings_count": 0,
+            "reviews_text_count": 0,
+            "added": 1,
+            "added_by_status": {
+                "toplay": 1
+            },
+            "metacritic": null,
+            "playtime": 0,
+            "suggestions_count": 399,
+            "updated": "2019-06-24T23:36:23",
+            "user_game": null,
+            "reviews_count": 0,
+            "community_rating": 0,
+            "saturated_color": "0f0f0f",
+            "dominant_color": "0f0f0f",
+            "platforms": [
+                {
+                    "platform": {
+                        "id": 4,
+                        "name": "PC",
+                        "slug": "pc",
+                        "image": null,
+                        "year_end": null,
+                        "year_start": null,
+                        "games_count": 527448,
+                        "image_background": "https://media.rawg.io/media/games/562/562553814dd54e001a541e4ee83a591c.jpg"
+                    },
+                    "released_at": "2030-01-01",
+                    "requirements_en": null,
+                    "requirements_ru": null
+                }
+            ],
+            "parent_platforms": [
+                {
+                    "platform": {
+                        "id": 1,
+                        "name": "PC",
+                        "slug": "pc"
+                    }
+                }
+            ],
+            "genres": [
+                {
+                    "id": 5,
+                    "name": "RPG",
+                    "slug": "role-playing-games-rpg",
+                    "games_count": 55388,
+                    "image_background": "https://media.rawg.io/media/games/c6b/c6bfece1daf8d06bc0a60632ac78e5bf.jpg"
+                },
+                {
+                    "id": 59,
+                    "name": "Massively Multiplayer",
+                    "slug": "massively-multiplayer",
+                    "games_count": 3566,
+                    "image_background": "https://media.rawg.io/media/games/1bd/1bd2657b81eb0c99338120ad444b24ff.jpg"
+                }
+            ],
+            "stores": [],
+            "clip": null,
+            "tags": [],
+            "esrb_rating": null,
+            "short_screenshots": [
+                {
+                    "id": -1,
+                    "image": "https://media.rawg.io/media/screenshots/8cc/8ccb840b7f2564f6c1ac03ce1ff95032.jpg"
+                },
+                {
+                    "id": 3231552,
+                    "image": "https://media.rawg.io/media/screenshots/1f7/1f7f842a85593d091146eac1030ad4b6.jpg"
+                },
+                {
+                    "id": 3231554,
+                    "image": "https://media.rawg.io/media/screenshots/3e2/3e2b790b62b1c60f9b5c2d071418be44.jpg"
+                },
+                {
+                    "id": 3231557,
+                    "image": "https://media.rawg.io/media/screenshots/2cd/2cd80a8ca374a301666f48b486b43a43.jpg"
+                },
+                {
+                    "id": 3231561,
+                    "image": "https://media.rawg.io/media/screenshots/5f9/5f956b1a997720e4bfcf7efa5f5607a5.jpg"
+                },
+                {
+                    "id": 3231562,
+                    "image": "https://media.rawg.io/media/screenshots/d5b/d5b4e5eec82a0c79c85bc54b68a48bc6.jpg"
+                },
+                {
+                    "id": 3231563,
+                    "image": "https://media.rawg.io/media/screenshots/4be/4be0b0b110c97f1059b8c6053b0bb833.jpg"
+                }
+            ]
+        },
+        {
+            "id": 332297,
+            "slug": "bards-tale-4",
+            "name": "The Bard's Tale IV",
+            "released": "2030-01-01",
+            "tba": false,
+            "background_image": null,
+            "rating": 0.0,
+            "rating_top": 0,
+            "ratings": [],
+            "ratings_count": 0,
+            "reviews_text_count": 0,
+            "added": 2,
+            "added_by_status": {
+                "owned": 1,
+                "toplay": 1
+            },
+            "metacritic": null,
+            "playtime": 0,
+            "suggestions_count": 0,
+            "updated": "2019-06-24T22:04:51",
+            "user_game": null,
+            "reviews_count": 0,
+            "community_rating": 0,
+            "saturated_color": "0f0f0f",
+            "dominant_color": "0f0f0f",
+            "platforms": [
+                {
+                    "platform": {
+                        "id": 4,
+                        "name": "PC",
+                        "slug": "pc",
+                        "image": null,
+                        "year_end": null,
+                        "year_start": null,
+                        "games_count": 527448,
+                        "image_background": "https://media.rawg.io/media/games/562/562553814dd54e001a541e4ee83a591c.jpg"
+                    },
+                    "released_at": "2030-01-01",
+                    "requirements_en": null,
+                    "requirements_ru": null
+                }
+            ],
+            "parent_platforms": [
+                {
+                    "platform": {
+                        "id": 1,
+                        "name": "PC",
+                        "slug": "pc"
+                    }
+                }
+            ],
+            "genres": [
+                {
+                    "id": 4,
+                    "name": "Action",
+                    "slug": "action",
+                    "games_count": 178957,
+                    "image_background": "https://media.rawg.io/media/games/b45/b45575f34285f2c4479c9a5f719d972e.jpg"
+                },
+                {
+                    "id": 5,
+                    "name": "RPG",
+                    "slug": "role-playing-games-rpg",
+                    "games_count": 55388,
+                    "image_background": "https://media.rawg.io/media/games/c6b/c6bfece1daf8d06bc0a60632ac78e5bf.jpg"
+                }
+            ],
+            "stores": [],
+            "clip": null,
+            "tags": [],
+            "esrb_rating": null,
+            "short_screenshots": []
+        },
+        {
+            "id": 43156,
+            "slug": "the-lost-pisces",
+            "name": "The Lost Pisces",
+            "released": "2030-01-01",
+            "tba": false,
+            "background_image": "https://media.rawg.io/media/screenshots/8d5/8d588eb8efb94ecfd04f8082abb9a75c.jpg",
+            "rating": 0.0,
+            "rating_top": 0,
+            "ratings": [],
+            "ratings_count": 0,
+            "reviews_text_count": 0,
+            "added": 2,
+            "added_by_status": {
+                "owned": 2
+            },
+            "metacritic": null,
+            "playtime": 0,
+            "suggestions_count": 600,
+            "updated": "2019-01-09T12:41:06",
+            "user_game": null,
+            "reviews_count": 0,
+            "community_rating": 0,
+            "saturated_color": "0f0f0f",
+            "dominant_color": "0f0f0f",
+            "platforms": [
+                {
+                    "platform": {
+                        "id": 4,
+                        "name": "PC",
+                        "slug": "pc",
+                        "image": null,
+                        "year_end": null,
+                        "year_start": null,
+                        "games_count": 527449,
+                        "image_background": "https://media.rawg.io/media/games/021/021c4e21a1824d2526f925eff6324653.jpg"
+                    },
+                    "released_at": "2030-01-01",
+                    "requirements_en": null,
+                    "requirements_ru": null
+                }
+            ],
+            "parent_platforms": [
+                {
+                    "platform": {
+                        "id": 1,
+                        "name": "PC",
+                        "slug": "pc"
+                    }
+                }
+            ],
+            "genres": [
+                {
+                    "id": 3,
+                    "name": "Adventure",
+                    "slug": "adventure",
+                    "games_count": 138531,
+                    "image_background": "https://media.rawg.io/media/games/879/879c930f9c6787c920153fa2df452eb3.jpg"
+                }
+            ],
+            "stores": [],
+            "clip": null,
+            "tags": [],
+            "esrb_rating": null,
+            "short_screenshots": [
+                {
+                    "id": -1,
+                    "image": "https://media.rawg.io/media/screenshots/8d5/8d588eb8efb94ecfd04f8082abb9a75c.jpg"
+                },
+                {
+                    "id": 623767,
+                    "image": "https://media.rawg.io/media/screenshots/3ab/3ab67871d4ea1eeb3f6c02c132b6eb94.jpg"
+                },
+                {
+                    "id": 623768,
+                    "image": "https://media.rawg.io/media/screenshots/fad/fadf9edb91a55482b99a14e429ff2b99.jpg"
+                },
+                {
+                    "id": 623769,
+                    "image": "https://media.rawg.io/media/screenshots/5f9/5f926648694f2b69e7b6fa8e7ef8b177.jpg"
+                },
+                {
+                    "id": 623770,
+                    "image": "https://media.rawg.io/media/screenshots/dd5/dd580efc20823a45cf4c18aae33c7a11.jpg"
+                },
+                {
+                    "id": 623771,
+                    "image": "https://media.rawg.io/media/screenshots/308/30871625d04dc39f7e21149ccab22fb8.jpg"
+                },
+                {
+                    "id": 623772,
+                    "image": "https://media.rawg.io/media/screenshots/f0d/f0d80351e47770e40bd0afe5b20da5b3.jpg"
+                }
+            ]
+        },
+        {
+            "id": 43066,
+            "slug": "the-awakening-of-cthulhu",
+            "name": "The Awakening of Cthulhu",
+            "released": "2030-01-01",
+            "tba": false,
+            "background_image": "https://media.rawg.io/media/screenshots/932/932bb1e344894ae2895677c4bb6075fe.jpg",
+            "rating": 0.0,
+            "rating_top": 0,
+            "ratings": [],
+            "ratings_count": 0,
+            "reviews_text_count": 0,
+            "added": 1,
+            "added_by_status": {
+                "owned": 1
+            },
+            "metacritic": null,
+            "playtime": 0,
+            "suggestions_count": 307,
+            "updated": "2019-01-09T12:41:06",
+            "user_game": null,
+            "reviews_count": 0,
+            "community_rating": 0,
+            "saturated_color": "0f0f0f",
+            "dominant_color": "0f0f0f",
+            "platforms": [
+                {
+                    "platform": {
+                        "id": 4,
+                        "name": "PC",
+                        "slug": "pc",
+                        "image": null,
+                        "year_end": null,
+                        "year_start": null,
+                        "games_count": 527449,
+                        "image_background": "https://media.rawg.io/media/games/021/021c4e21a1824d2526f925eff6324653.jpg"
+                    },
+                    "released_at": "2030-01-01",
+                    "requirements_en": null,
+                    "requirements_ru": null
+                }
+            ],
+            "parent_platforms": [
+                {
+                    "platform": {
+                        "id": 1,
+                        "name": "PC",
+                        "slug": "pc"
+                    }
+                }
+            ],
+            "genres": [
+                {
+                    "id": 4,
+                    "name": "Action",
+                    "slug": "action",
+                    "games_count": 178957,
+                    "image_background": "https://media.rawg.io/media/games/b45/b45575f34285f2c4479c9a5f719d972e.jpg"
+                }
+            ],
+            "stores": [],
+            "clip": null,
+            "tags": [],
+            "esrb_rating": null,
+            "short_screenshots": [
+                {
+                    "id": -1,
+                    "image": "https://media.rawg.io/media/screenshots/932/932bb1e344894ae2895677c4bb6075fe.jpg"
+                },
+                {
+                    "id": 623087,
+                    "image": "https://media.rawg.io/media/screenshots/53d/53db5f642650ca3b60ae29250f073804.jpg"
+                },
+                {
+                    "id": 623088,
+                    "image": "https://media.rawg.io/media/screenshots/ca3/ca33b1f8654dfd33e45086d676ed5503.jpg"
+                },
+                {
+                    "id": 623089,
+                    "image": "https://media.rawg.io/media/screenshots/471/471bcbc790cece10878fec1072201c5a.jpg"
+                },
+                {
+                    "id": 623090,
+                    "image": "https://media.rawg.io/media/screenshots/0fd/0fdd7d2b27415359c6560a6b02e8bacb.jpg"
+                },
+                {
+                    "id": 623091,
+                    "image": "https://media.rawg.io/media/screenshots/95e/95e798e89393c685239ca92753fd678a.jpg"
+                },
+                {
+                    "id": 623092,
+                    "image": "https://media.rawg.io/media/screenshots/7e4/7e4b7c9aa0d4e08d604b012b54f4a8fa.jpg"
+                }
+            ]
+        },
+        {
+            "id": 43035,
+            "slug": "haste",
+            "name": "Haste",
+            "released": "2030-01-01",
+            "tba": false,
+            "background_image": "https://media.rawg.io/media/screenshots/712/7126997f814f2ccc90caf679f753857f.jpg",
+            "rating": 0.0,
+            "rating_top": 0,
+            "ratings": [],
+            "ratings_count": 0,
+            "reviews_text_count": 0,
+            "added": 0,
+            "added_by_status": null,
+            "metacritic": null,
+            "playtime": 0,
+            "suggestions_count": 192,
+            "updated": "2019-01-09T12:41:06",
+            "user_game": null,
+            "reviews_count": 0,
+            "community_rating": 0,
+            "saturated_color": "0f0f0f",
+            "dominant_color": "0f0f0f",
+            "platforms": [
+                {
+                    "platform": {
+                        "id": 4,
+                        "name": "PC",
+                        "slug": "pc",
+                        "image": null,
+                        "year_end": null,
+                        "year_start": null,
+                        "games_count": 527449,
+                        "image_background": "https://media.rawg.io/media/games/021/021c4e21a1824d2526f925eff6324653.jpg"
+                    },
+                    "released_at": "2030-01-01",
+                    "requirements_en": null,
+                    "requirements_ru": null
+                }
+            ],
+            "parent_platforms": [
+                {
+                    "platform": {
+                        "id": 1,
+                        "name": "PC",
+                        "slug": "pc"
+                    }
+                }
+            ],
+            "genres": [
+                {
+                    "id": 4,
+                    "name": "Action",
+                    "slug": "action",
+                    "games_count": 178957,
+                    "image_background": "https://media.rawg.io/media/games/b45/b45575f34285f2c4479c9a5f719d972e.jpg"
+                },
+                {
+                    "id": 11,
+                    "name": "Arcade",
+                    "slug": "arcade",
+                    "games_count": 22654,
+                    "image_background": "https://media.rawg.io/media/games/23d/23d78acedbb5f40c9fb64e73af5af65d.jpg"
+                }
+            ],
+            "stores": [],
+            "clip": null,
+            "tags": [],
+            "esrb_rating": null,
+            "short_screenshots": [
+                {
+                    "id": -1,
+                    "image": "https://media.rawg.io/media/screenshots/712/7126997f814f2ccc90caf679f753857f.jpg"
+                },
+                {
+                    "id": 622736,
+                    "image": "https://media.rawg.io/media/screenshots/ef9/ef9d251807c6b60cc1ab1ca595cc5826.jpg"
+                },
+                {
+                    "id": 622737,
+                    "image": "https://media.rawg.io/media/screenshots/235/235fd86e26867626dbadfc9b7fd32ae3.jpg"
+                },
+                {
+                    "id": 622738,
+                    "image": "https://media.rawg.io/media/screenshots/3c8/3c8959e9f1a4e8279b5a2a56ab57a992.jpg"
+                },
+                {
+                    "id": 622739,
+                    "image": "https://media.rawg.io/media/screenshots/df9/df9221f0f1a8df9f833bf9827abe7a11.jpg"
+                },
+                {
+                    "id": 622740,
+                    "image": "https://media.rawg.io/media/screenshots/45b/45be953a7e8656e9f28049317163cd38.jpg"
+                },
+                {
+                    "id": 622741,
+                    "image": "https://media.rawg.io/media/screenshots/e47/e476e5877836b518dc4beefef1fff011.jpg"
+                }
+            ]
+        },
+        {
+            "id": 42919,
+            "slug": "king-of-wushu",
+            "name": "King of Wushu",
+            "released": "2030-01-01",
+            "tba": true,
+            "background_image": "https://media.rawg.io/media/screenshots/3be/3beceb53565101df141e7425bb3b751f.jpg",
+            "rating": 0.0,
+            "rating_top": 0,
+            "ratings": [],
+            "ratings_count": 0,
+            "reviews_text_count": 0,
+            "added": 3,
+            "added_by_status": {
+                "owned": 2,
+                "toplay": 1
+            },
+            "metacritic": null,
+            "playtime": 0,
+            "suggestions_count": 354,
+            "updated": "2022-05-20T13:16:00",
+            "user_game": null,
+            "reviews_count": 0,
+            "community_rating": 0,
+            "saturated_color": "0f0f0f",
+            "dominant_color": "0f0f0f",
+            "platforms": [
+                {
+                    "platform": {
+                        "id": 4,
+                        "name": "PC",
+                        "slug": "pc",
+                        "image": null,
+                        "year_end": null,
+                        "year_start": null,
+                        "games_count": 527449,
+                        "image_background": "https://media.rawg.io/media/games/021/021c4e21a1824d2526f925eff6324653.jpg"
+                    },
+                    "released_at": null,
+                    "requirements_en": null,
+                    "requirements_ru": null
+                }
+            ],
+            "parent_platforms": [
+                {
+                    "platform": {
+                        "id": 1,
+                        "name": "PC",
+                        "slug": "pc"
+                    }
+                }
+            ],
+            "genres": [
+                {
+                    "id": 5,
+                    "name": "RPG",
+                    "slug": "role-playing-games-rpg",
+                    "games_count": 55388,
+                    "image_background": "https://media.rawg.io/media/games/c6b/c6bfece1daf8d06bc0a60632ac78e5bf.jpg"
+                },
+                {
+                    "id": 59,
+                    "name": "Massively Multiplayer",
+                    "slug": "massively-multiplayer",
+                    "games_count": 3566,
+                    "image_background": "https://media.rawg.io/media/games/1bd/1bd2657b81eb0c99338120ad444b24ff.jpg"
+                }
+            ],
+            "stores": [],
+            "clip": null,
+            "tags": [],
+            "esrb_rating": null,
+            "short_screenshots": [
+                {
+                    "id": -1,
+                    "image": "https://media.rawg.io/media/screenshots/3be/3beceb53565101df141e7425bb3b751f.jpg"
+                },
+                {
+                    "id": 621369,
+                    "image": "https://media.rawg.io/media/screenshots/a91/a91b224eaf8d34e0ed9f004fd10fe739.jpg"
+                },
+                {
+                    "id": 621370,
+                    "image": "https://media.rawg.io/media/screenshots/765/765d208854a6b38824e7d75380634382.jpg"
+                },
+                {
+                    "id": 621371,
+                    "image": "https://media.rawg.io/media/screenshots/68b/68b97d328edf02fcf0c8080504e80092.jpg"
+                },
+                {
+                    "id": 621372,
+                    "image": "https://media.rawg.io/media/screenshots/b08/b08fbbe45f32cbe898a3c72be30cb5dd.jpg"
+                },
+                {
+                    "id": 621373,
+                    "image": "https://media.rawg.io/media/screenshots/875/8755de3de76effe617c35fb6ba082f93.jpg"
+                },
+                {
+                    "id": 621374,
+                    "image": "https://media.rawg.io/media/screenshots/3be/3beceb53565101df141e7425bb3b751f.jpg"
+                }
+            ]
+        },
+        {
+            "id": 42864,
+            "slug": "urizen",
+            "name": "Urizen",
+            "released": "2030-01-01",
+            "tba": false,
+            "background_image": "https://media.rawg.io/media/screenshots/10f/10fc55261acc2ae29846e2e4cffbea5c.jpg",
+            "rating": 0.0,
+            "rating_top": 0,
+            "ratings": [],
+            "ratings_count": 0,
+            "reviews_text_count": 0,
+            "added": 0,
+            "added_by_status": null,
+            "metacritic": null,
+            "playtime": 0,
+            "suggestions_count": 316,
+            "updated": "2019-01-09T12:41:06",
+            "user_game": null,
+            "reviews_count": 0,
+            "community_rating": 0,
+            "saturated_color": "0f0f0f",
+            "dominant_color": "0f0f0f",
+            "platforms": [
+                {
+                    "platform": {
+                        "id": 4,
+                        "name": "PC",
+                        "slug": "pc",
+                        "image": null,
+                        "year_end": null,
+                        "year_start": null,
+                        "games_count": 527449,
+                        "image_background": "https://media.rawg.io/media/games/021/021c4e21a1824d2526f925eff6324653.jpg"
+                    },
+                    "released_at": "2030-01-01",
+                    "requirements_en": null,
+                    "requirements_ru": null
+                }
+            ],
+            "parent_platforms": [
+                {
+                    "platform": {
+                        "id": 1,
+                        "name": "PC",
+                        "slug": "pc"
+                    }
+                }
+            ],
+            "genres": [
+                {
+                    "id": 11,
+                    "name": "Arcade",
+                    "slug": "arcade",
+                    "games_count": 22654,
+                    "image_background": "https://media.rawg.io/media/games/23d/23d78acedbb5f40c9fb64e73af5af65d.jpg"
+                }
+            ],
+            "stores": [],
+            "clip": null,
+            "tags": [],
+            "esrb_rating": null,
+            "short_screenshots": [
+                {
+                    "id": -1,
+                    "image": "https://media.rawg.io/media/screenshots/10f/10fc55261acc2ae29846e2e4cffbea5c.jpg"
+                },
+                {
+                    "id": 620663,
+                    "image": "https://media.rawg.io/media/screenshots/794/79484f72eb5b082313dd29be39efaec3.jpg"
+                },
+                {
+                    "id": 620664,
+                    "image": "https://media.rawg.io/media/screenshots/842/8421bb3f65800c0b149d7fe6087fb718.jpg"
+                },
+                {
+                    "id": 620665,
+                    "image": "https://media.rawg.io/media/screenshots/d0e/d0ed137cb66ed58c27f672edbff76dbc_uRwDdrk.jpg"
+                },
+                {
+                    "id": 620666,
+                    "image": "https://media.rawg.io/media/screenshots/639/6399cc107dbac4ae34fd47bd2548642f_ZBtxx10.jpg"
+                },
+                {
+                    "id": 620667,
+                    "image": "https://media.rawg.io/media/screenshots/855/855630e284a8949e72d587892caacd3c.jpg"
+                },
+                {
+                    "id": 620668,
+                    "image": "https://media.rawg.io/media/screenshots/f53/f53bc5da3f1e6ef2d5b23c476aad2497.jpg"
+                }
+            ]
+        },
+        {
+            "id": 42727,
+            "slug": "grave",
+            "name": "Grave",
+            "released": "2030-01-01",
+            "tba": false,
+            "background_image": "https://media.rawg.io/media/screenshots/6dd/6dd0bd38719c0443056a7c1abfff4217.jpg",
+            "rating": 0.0,
+            "rating_top": 0,
+            "ratings": [],
+            "ratings_count": 0,
+            "reviews_text_count": 0,
+            "added": 1,
+            "added_by_status": {
+                "toplay": 1
+            },
+            "metacritic": null,
+            "playtime": 0,
+            "suggestions_count": 480,
+            "updated": "2019-01-09T12:41:06",
+            "user_game": null,
+            "reviews_count": 0,
+            "community_rating": 0,
+            "saturated_color": "0f0f0f",
+            "dominant_color": "0f0f0f",
+            "platforms": [
+                {
+                    "platform": {
+                        "id": 4,
+                        "name": "PC",
+                        "slug": "pc",
+                        "image": null,
+                        "year_end": null,
+                        "year_start": null,
+                        "games_count": 527449,
+                        "image_background": "https://media.rawg.io/media/games/021/021c4e21a1824d2526f925eff6324653.jpg"
+                    },
+                    "released_at": "2030-01-01",
+                    "requirements_en": null,
+                    "requirements_ru": null
+                }
+            ],
+            "parent_platforms": [
+                {
+                    "platform": {
+                        "id": 1,
+                        "name": "PC",
+                        "slug": "pc"
+                    }
+                }
+            ],
+            "genres": [
+                {
+                    "id": 4,
+                    "name": "Action",
+                    "slug": "action",
+                    "games_count": 178957,
+                    "image_background": "https://media.rawg.io/media/games/b45/b45575f34285f2c4479c9a5f719d972e.jpg"
+                }
+            ],
+            "stores": [],
+            "clip": null,
+            "tags": [],
+            "esrb_rating": null,
+            "short_screenshots": [
+                {
+                    "id": -1,
+                    "image": "https://media.rawg.io/media/screenshots/6dd/6dd0bd38719c0443056a7c1abfff4217.jpg"
+                },
+                {
+                    "id": 619308,
+                    "image": "https://media.rawg.io/media/screenshots/b70/b7082bcf5909c6250676626ca7d6e955.jpg"
+                },
+                {
+                    "id": 619309,
+                    "image": "https://media.rawg.io/media/screenshots/273/2731ddc667b297fc3bc17a0cb37ddf8a.jpg"
+                },
+                {
+                    "id": 619310,
+                    "image": "https://media.rawg.io/media/screenshots/e18/e181014767cf7bb6fd7f7834f0a0f68f.jpg"
+                },
+                {
+                    "id": 619311,
+                    "image": "https://media.rawg.io/media/screenshots/b9e/b9e3bde2267a781cb4ee2e4b0e93330e.jpg"
+                },
+                {
+                    "id": 619312,
+                    "image": "https://media.rawg.io/media/screenshots/1b7/1b7e26ce430dd2dc8721ac9e90ca7c05.jpg"
+                },
+                {
+                    "id": 619313,
+                    "image": "https://media.rawg.io/media/screenshots/5a4/5a4f96331376f4f1df171537252b7e5a.jpg"
+                }
+            ]
+        },
+        {
+            "id": 42724,
+            "slug": "defile",
+            "name": "Defile",
+            "released": "2030-01-01",
+            "tba": false,
+            "background_image": "https://media.rawg.io/media/screenshots/46b/46b40ecc545e37f65994bfa85868ff2d.jpg",
+            "rating": 0.0,
+            "rating_top": 0,
+            "ratings": [],
+            "ratings_count": 0,
+            "reviews_text_count": 0,
+            "added": 0,
+            "added_by_status": null,
+            "metacritic": null,
+            "playtime": 0,
+            "suggestions_count": 27,
+            "updated": "2019-01-09T12:41:06",
+            "user_game": null,
+            "reviews_count": 0,
+            "community_rating": 0,
+            "saturated_color": "0f0f0f",
+            "dominant_color": "0f0f0f",
+            "platforms": [
+                {
+                    "platform": {
+                        "id": 4,
+                        "name": "PC",
+                        "slug": "pc",
+                        "image": null,
+                        "year_end": null,
+                        "year_start": null,
+                        "games_count": 527449,
+                        "image_background": "https://media.rawg.io/media/games/021/021c4e21a1824d2526f925eff6324653.jpg"
+                    },
+                    "released_at": "2030-01-01",
+                    "requirements_en": null,
+                    "requirements_ru": null
+                }
+            ],
+            "parent_platforms": [
+                {
+                    "platform": {
+                        "id": 1,
+                        "name": "PC",
+                        "slug": "pc"
+                    }
+                }
+            ],
+            "genres": [
+                {
+                    "id": 4,
+                    "name": "Action",
+                    "slug": "action",
+                    "games_count": 178957,
+                    "image_background": "https://media.rawg.io/media/games/b45/b45575f34285f2c4479c9a5f719d972e.jpg"
+                },
+                {
+                    "id": 5,
+                    "name": "RPG",
+                    "slug": "role-playing-games-rpg",
+                    "games_count": 55388,
+                    "image_background": "https://media.rawg.io/media/games/c6b/c6bfece1daf8d06bc0a60632ac78e5bf.jpg"
+                }
+            ],
+            "stores": [],
+            "clip": null,
+            "tags": [],
+            "esrb_rating": null,
+            "short_screenshots": [
+                {
+                    "id": -1,
+                    "image": "https://media.rawg.io/media/screenshots/46b/46b40ecc545e37f65994bfa85868ff2d.jpg"
+                },
+                {
+                    "id": 619287,
+                    "image": "https://media.rawg.io/media/screenshots/365/36562e592b09651dabe5c4e23b82b439.jpg"
+                },
+                {
+                    "id": 619288,
+                    "image": "https://media.rawg.io/media/screenshots/187/187238f830829f6b34aa747d7dc1d786.jpg"
+                },
+                {
+                    "id": 619289,
+                    "image": "https://media.rawg.io/media/screenshots/46b/46b40ecc545e37f65994bfa85868ff2d.jpg"
+                }
+            ]
+        },
+        {
+            "id": 42669,
+            "slug": "i-nfected",
+            "name": "I nfected",
+            "released": "2030-01-01",
+            "tba": false,
+            "background_image": "https://media.rawg.io/media/screenshots/9d7/9d76ee81e905a26abfcd9a9c2b196feb.jpg",
+            "rating": 0.0,
+            "rating_top": 0,
+            "ratings": [],
+            "ratings_count": 0,
+            "reviews_text_count": 0,
+            "added": 0,
+            "added_by_status": null,
+            "metacritic": null,
+            "playtime": 0,
+            "suggestions_count": 304,
+            "updated": "2019-01-09T12:41:06",
+            "user_game": null,
+            "reviews_count": 0,
+            "community_rating": 0,
+            "saturated_color": "0f0f0f",
+            "dominant_color": "0f0f0f",
+            "platforms": [
+                {
+                    "platform": {
+                        "id": 4,
+                        "name": "PC",
+                        "slug": "pc",
+                        "image": null,
+                        "year_end": null,
+                        "year_start": null,
+                        "games_count": 527449,
+                        "image_background": "https://media.rawg.io/media/games/021/021c4e21a1824d2526f925eff6324653.jpg"
+                    },
+                    "released_at": "2030-01-01",
+                    "requirements_en": null,
+                    "requirements_ru": null
+                }
+            ],
+            "parent_platforms": [
+                {
+                    "platform": {
+                        "id": 1,
+                        "name": "PC",
+                        "slug": "pc"
+                    }
+                }
+            ],
+            "genres": [
+                {
+                    "id": 4,
+                    "name": "Action",
+                    "slug": "action",
+                    "games_count": 178957,
+                    "image_background": "https://media.rawg.io/media/games/b45/b45575f34285f2c4479c9a5f719d972e.jpg"
+                }
+            ],
+            "stores": [],
+            "clip": null,
+            "tags": [],
+            "esrb_rating": null,
+            "short_screenshots": [
+                {
+                    "id": -1,
+                    "image": "https://media.rawg.io/media/screenshots/9d7/9d76ee81e905a26abfcd9a9c2b196feb.jpg"
+                },
+                {
+                    "id": 618501,
+                    "image": "https://media.rawg.io/media/screenshots/47f/47fbb926a7b57464319b40b87679f216.jpg"
+                },
+                {
+                    "id": 618502,
+                    "image": "https://media.rawg.io/media/screenshots/a85/a85f8bebaf7d412ad4af1e5360ae04f8.jpg"
+                },
+                {
+                    "id": 618503,
+                    "image": "https://media.rawg.io/media/screenshots/e03/e0307014a7bfa1636791db515dc0aef4_fbdHltA.jpg"
+                },
+                {
+                    "id": 618504,
+                    "image": "https://media.rawg.io/media/screenshots/7a6/7a60740b9ed290e88cc995ef18ddf11a.jpg"
+                },
+                {
+                    "id": 618505,
+                    "image": "https://media.rawg.io/media/screenshots/ec3/ec3d5a5735a92a54d55d8e3203dffe9e.jpg"
+                },
+                {
+                    "id": 618506,
+                    "image": "https://media.rawg.io/media/screenshots/351/35188af8dab319e4fe21c80ca7021009.jpg"
+                }
+            ]
+        },
+        {
+            "id": 42552,
+            "slug": "loading-human",
+            "name": "Loading Human",
+            "released": "2030-01-01",
+            "tba": false,
+            "background_image": "https://media.rawg.io/media/screenshots/ad0/ad06d08d830702225137908936ad7c68.jpg",
+            "rating": 0.0,
+            "rating_top": 0,
+            "ratings": [],
+            "ratings_count": 0,
+            "reviews_text_count": 0,
+            "added": 2,
+            "added_by_status": {
+                "owned": 2
+            },
+            "metacritic": null,
+            "playtime": 0,
+            "suggestions_count": 142,
+            "updated": "2019-01-09T12:41:06",
+            "user_game": null,
+            "reviews_count": 0,
+            "community_rating": 0,
+            "saturated_color": "0f0f0f",
+            "dominant_color": "0f0f0f",
+            "platforms": [
+                {
+                    "platform": {
+                        "id": 4,
+                        "name": "PC",
+                        "slug": "pc",
+                        "image": null,
+                        "year_end": null,
+                        "year_start": null,
+                        "games_count": 527449,
+                        "image_background": "https://media.rawg.io/media/games/021/021c4e21a1824d2526f925eff6324653.jpg"
+                    },
+                    "released_at": "2030-01-01",
+                    "requirements_en": null,
+                    "requirements_ru": null
+                }
+            ],
+            "parent_platforms": [
+                {
+                    "platform": {
+                        "id": 1,
+                        "name": "PC",
+                        "slug": "pc"
+                    }
+                }
+            ],
+            "genres": [
+                {
+                    "id": 3,
+                    "name": "Adventure",
+                    "slug": "adventure",
+                    "games_count": 138531,
+                    "image_background": "https://media.rawg.io/media/games/879/879c930f9c6787c920153fa2df452eb3.jpg"
+                }
+            ],
+            "stores": [],
+            "clip": null,
+            "tags": [],
+            "esrb_rating": null,
+            "short_screenshots": [
+                {
+                    "id": -1,
+                    "image": "https://media.rawg.io/media/screenshots/ad0/ad06d08d830702225137908936ad7c68.jpg"
+                },
+                {
+                    "id": 617277,
+                    "image": "https://media.rawg.io/media/screenshots/f13/f1391eac0c6981300d913fc7030cbb41.jpg"
+                },
+                {
+                    "id": 617278,
+                    "image": "https://media.rawg.io/media/screenshots/9e4/9e4d94ca940337b496d1a723174ba8d8.jpg"
+                },
+                {
+                    "id": 617279,
+                    "image": "https://media.rawg.io/media/screenshots/910/910ae2afe1919e5fdb6498043a3e748b.jpg"
+                },
+                {
+                    "id": 617280,
+                    "image": "https://media.rawg.io/media/screenshots/ad0/ad06d08d830702225137908936ad7c68.jpg"
+                }
+            ]
+        },
+        {
+            "id": 42335,
+            "slug": "insecters-war",
+            "name": "Insecters War",
+            "released": "2030-01-01",
+            "tba": false,
+            "background_image": "https://media.rawg.io/media/screenshots/32b/32bf977b2e13dacef4aa7f6de6b22452.jpg",
+            "rating": 0.0,
+            "rating_top": 0,
+            "ratings": [
+                {
+                    "id": 1,
+                    "title": "skip",
+                    "count": 1,
+                    "percent": 100.0
+                }
+            ],
+            "ratings_count": 1,
+            "reviews_text_count": 0,
+            "added": 33,
+            "added_by_status": {
+                "owned": 32,
+                "dropped": 1
+            },
+            "metacritic": null,
+            "playtime": 35,
+            "suggestions_count": 423,
+            "updated": "2022-08-30T15:11:28",
+            "user_game": null,
+            "reviews_count": 1,
+            "community_rating": 0,
+            "saturated_color": "0f0f0f",
+            "dominant_color": "0f0f0f",
+            "platforms": [
+                {
+                    "platform": {
+                        "id": 4,
+                        "name": "PC",
+                        "slug": "pc",
+                        "image": null,
+                        "year_end": null,
+                        "year_start": null,
+                        "games_count": 527449,
+                        "image_background": "https://media.rawg.io/media/games/021/021c4e21a1824d2526f925eff6324653.jpg"
+                    },
+                    "released_at": "2030-01-01",
+                    "requirements_en": null,
+                    "requirements_ru": null
+                }
+            ],
+            "parent_platforms": [
+                {
+                    "platform": {
+                        "id": 1,
+                        "name": "PC",
+                        "slug": "pc"
+                    }
+                }
+            ],
+            "genres": [
+                {
+                    "id": 11,
+                    "name": "Arcade",
+                    "slug": "arcade",
+                    "games_count": 22654,
+                    "image_background": "https://media.rawg.io/media/games/23d/23d78acedbb5f40c9fb64e73af5af65d.jpg"
+                }
+            ],
+            "stores": [],
+            "clip": null,
+            "tags": [],
+            "esrb_rating": null,
+            "short_screenshots": [
+                {
+                    "id": -1,
+                    "image": "https://media.rawg.io/media/screenshots/32b/32bf977b2e13dacef4aa7f6de6b22452.jpg"
+                },
+                {
+                    "id": 613471,
+                    "image": "https://media.rawg.io/media/screenshots/8c6/8c63d9a1e67d5a0bb97a09de53ec535c.jpg"
+                },
+                {
+                    "id": 613472,
+                    "image": "https://media.rawg.io/media/screenshots/fdd/fddfbf81ab79d3eb572dedaa4d77d1d2.jpg"
+                },
+                {
+                    "id": 613473,
+                    "image": "https://media.rawg.io/media/screenshots/0ea/0eace6e3d546202c7d575436cc902578.jpg"
+                },
+                {
+                    "id": 613474,
+                    "image": "https://media.rawg.io/media/screenshots/361/361836a79788d32d8ea638414aa001cb.jpg"
+                },
+                {
+                    "id": 613475,
+                    "image": "https://media.rawg.io/media/screenshots/53e/53e32edb91a2c1a69459444f9ede7db3.jpg"
+                },
+                {
+                    "id": 613476,
+                    "image": "https://media.rawg.io/media/screenshots/5ba/5ba3c98e977011cb9f872f92d32f0311.jpg"
+                }
+            ]
+        },
+        {
+            "id": 42262,
+            "slug": "liege",
+            "name": "Liege",
+            "released": "2030-01-01",
+            "tba": false,
+            "background_image": "https://media.rawg.io/media/screenshots/2c3/2c3114ae65e016895fbef9c9bd1020e5.jpg",
+            "rating": 0.0,
+            "rating_top": 0,
+            "ratings": [],
+            "ratings_count": 0,
+            "reviews_text_count": 0,
+            "added": 0,
+            "added_by_status": null,
+            "metacritic": null,
+            "playtime": 0,
+            "suggestions_count": 258,
+            "updated": "2019-01-09T12:41:06",
+            "user_game": null,
+            "reviews_count": 0,
+            "community_rating": 0,
+            "saturated_color": "0f0f0f",
+            "dominant_color": "0f0f0f",
+            "platforms": [
+                {
+                    "platform": {
+                        "id": 4,
+                        "name": "PC",
+                        "slug": "pc",
+                        "image": null,
+                        "year_end": null,
+                        "year_start": null,
+                        "games_count": 527449,
+                        "image_background": "https://media.rawg.io/media/games/021/021c4e21a1824d2526f925eff6324653.jpg"
+                    },
+                    "released_at": "2030-01-01",
+                    "requirements_en": null,
+                    "requirements_ru": null
+                }
+            ],
+            "parent_platforms": [
+                {
+                    "platform": {
+                        "id": 1,
+                        "name": "PC",
+                        "slug": "pc"
+                    }
+                }
+            ],
+            "genres": [
+                {
+                    "id": 5,
+                    "name": "RPG",
+                    "slug": "role-playing-games-rpg",
+                    "games_count": 55388,
+                    "image_background": "https://media.rawg.io/media/games/c6b/c6bfece1daf8d06bc0a60632ac78e5bf.jpg"
+                }
+            ],
+            "stores": [],
+            "clip": null,
+            "tags": [],
+            "esrb_rating": null,
+            "short_screenshots": [
+                {
+                    "id": -1,
+                    "image": "https://media.rawg.io/media/screenshots/2c3/2c3114ae65e016895fbef9c9bd1020e5.jpg"
+                },
+                {
+                    "id": 611796,
+                    "image": "https://media.rawg.io/media/screenshots/82b/82b38f5249a089c33ca2aa126cf2f172.jpg"
+                },
+                {
+                    "id": 611797,
+                    "image": "https://media.rawg.io/media/screenshots/7b3/7b3e7d70f8e1400f71686253012a6d26.jpg"
+                },
+                {
+                    "id": 611798,
+                    "image": "https://media.rawg.io/media/screenshots/7ab/7ab6a9bea8c2bd7fcf325fb4d91dde8d.jpg"
+                },
+                {
+                    "id": 611799,
+                    "image": "https://media.rawg.io/media/screenshots/901/901850e61f32dc9a98792583833785da.jpg"
+                },
+                {
+                    "id": 611800,
+                    "image": "https://media.rawg.io/media/screenshots/0f5/0f5eedc5cfbfac97546f3e350626023e.jpg"
+                },
+                {
+                    "id": 611801,
+                    "image": "https://media.rawg.io/media/screenshots/2c3/2c3114ae65e016895fbef9c9bd1020e5.jpg"
+                }
+            ]
+        },
+        {
+            "id": 41935,
+            "slug": "ag-tech-channel",
+            "name": "AG Tech Channel",
+            "released": "2030-01-01",
+            "tba": false,
+            "background_image": "https://media.rawg.io/media/screenshots/9bd/9bd42e8a282aac8c1203c098132c5f10.jpg",
+            "rating": 0.0,
+            "rating_top": 0,
+            "ratings": [
+                {
+                    "id": 1,
+                    "title": "skip",
+                    "count": 1,
+                    "percent": 100.0
+                }
+            ],
+            "ratings_count": 1,
+            "reviews_text_count": 0,
+            "added": 0,
+            "added_by_status": {},
+            "metacritic": null,
+            "playtime": 0,
+            "suggestions_count": 544,
+            "updated": "2019-01-09T12:41:06",
+            "user_game": null,
+            "reviews_count": 1,
+            "community_rating": 0,
+            "saturated_color": "0f0f0f",
+            "dominant_color": "0f0f0f",
+            "platforms": [
+                {
+                    "platform": {
+                        "id": 4,
+                        "name": "PC",
+                        "slug": "pc",
+                        "image": null,
+                        "year_end": null,
+                        "year_start": null,
+                        "games_count": 527449,
+                        "image_background": "https://media.rawg.io/media/games/021/021c4e21a1824d2526f925eff6324653.jpg"
+                    },
+                    "released_at": "2030-01-01",
+                    "requirements_en": null,
+                    "requirements_ru": null
+                }
+            ],
+            "parent_platforms": [
+                {
+                    "platform": {
+                        "id": 1,
+                        "name": "PC",
+                        "slug": "pc"
+                    }
+                }
+            ],
+            "genres": [
+                {
+                    "id": 4,
+                    "name": "Action",
+                    "slug": "action",
+                    "games_count": 178957,
+                    "image_background": "https://media.rawg.io/media/games/b45/b45575f34285f2c4479c9a5f719d972e.jpg"
+                },
+                {
+                    "id": 3,
+                    "name": "Adventure",
+                    "slug": "adventure",
+                    "games_count": 138531,
+                    "image_background": "https://media.rawg.io/media/games/879/879c930f9c6787c920153fa2df452eb3.jpg"
+                },
+                {
+                    "id": 5,
+                    "name": "RPG",
+                    "slug": "role-playing-games-rpg",
+                    "games_count": 55388,
+                    "image_background": "https://media.rawg.io/media/games/c6b/c6bfece1daf8d06bc0a60632ac78e5bf.jpg"
+                },
+                {
+                    "id": 10,
+                    "name": "Strategy",
+                    "slug": "strategy",
+                    "games_count": 55742,
+                    "image_background": "https://media.rawg.io/media/games/e44/e445335e611b4ccf03af71fffcbd30a4.jpg"
+                },
+                {
+                    "id": 14,
+                    "name": "Simulation",
+                    "slug": "simulation",
+                    "games_count": 68868,
+                    "image_background": "https://media.rawg.io/media/games/78d/78dfae12fb8c5b16cd78648553071e0a.jpg"
+                },
+                {
+                    "id": 15,
+                    "name": "Sports",
+                    "slug": "sports",
+                    "games_count": 21293,
+                    "image_background": "https://media.rawg.io/media/games/ff6/ff66ce127716df74175961831ad3a23a.jpg"
+                },
+                {
+                    "id": 1,
+                    "name": "Racing",
+                    "slug": "racing",
+                    "games_count": 24631,
+                    "image_background": "https://media.rawg.io/media/games/a57/a57e3c73ca46cbf55b526c828e3545c0.jpg"
+                },
+                {
+                    "id": 11,
+                    "name": "Arcade",
+                    "slug": "arcade",
+                    "games_count": 22654,
+                    "image_background": "https://media.rawg.io/media/games/23d/23d78acedbb5f40c9fb64e73af5af65d.jpg"
+                }
+            ],
+            "stores": [],
+            "clip": null,
+            "tags": [],
+            "esrb_rating": null,
+            "short_screenshots": [
+                {
+                    "id": -1,
+                    "image": "https://media.rawg.io/media/screenshots/9bd/9bd42e8a282aac8c1203c098132c5f10.jpg"
+                },
+                {
+                    "id": 605243,
+                    "image": "https://media.rawg.io/media/screenshots/ae2/ae2c97fdb8cfec519b0b3cf6c7b99f70.jpg"
+                },
+                {
+                    "id": 605244,
+                    "image": "https://media.rawg.io/media/screenshots/a4d/a4d57fd4a569fc0fe83d7cc0329f2eee.jpg"
+                },
+                {
+                    "id": 605245,
+                    "image": "https://media.rawg.io/media/screenshots/88e/88e1b9b3639d469d5629b8e4b06ce650.jpg"
+                },
+                {
+                    "id": 605246,
+                    "image": "https://media.rawg.io/media/screenshots/aa8/aa8fc3df4f9686303161830694880b07.jpg"
+                },
+                {
+                    "id": 605247,
+                    "image": "https://media.rawg.io/media/screenshots/d15/d1543a5a1922c68e827ce161724b6a36.jpg"
+                },
+                {
+                    "id": 605248,
+                    "image": "https://media.rawg.io/media/screenshots/489/489aafc69594e2cbf21dd5c6660cfce8.jpg"
+                }
+            ]
+        }
+    ],
+    "seo_title": "All Games",
+    "seo_description": "",
+    "seo_keywords": "",
+    "seo_h1": "All Games",
+    "noindex": false,
+    "nofollow": false,
+    "description": "",
+    "filters": {
+        "years": [
+            {
+                "from": 2020,
+                "to": 2024,
+                "filter": "2020-01-01,2024-12-31",
+                "decade": 2020,
+                "years": [
+                    {
+                        "year": 2024,
+                        "count": 3374,
+                        "nofollow": false
+                    },
+                    {
+                        "year": 2023,
+                        "count": 61891,
+                        "nofollow": false
+                    },
+                    {
+                        "year": 2022,
+                        "count": 168141,
+                        "nofollow": false
+                    },
+                    {
+                        "year": 2021,
+                        "count": 158682,
+                        "nofollow": false
+                    },
+                    {
+                        "year": 2020,
+                        "count": 121355,
+                        "nofollow": false
+                    }
+                ],
+                "nofollow": true,
+                "count": 513443
+            },
+            {
+                "from": 2010,
+                "to": 2019,
+                "filter": "2010-01-01,2019-12-31",
+                "decade": 2010,
+                "years": [
+                    {
+                        "year": 2019,
+                        "count": 73680,
+                        "nofollow": false
+                    },
+                    {
+                        "year": 2018,
+                        "count": 67941,
+                        "nofollow": false
+                    },
+                    {
+                        "year": 2017,
+                        "count": 54586,
+                        "nofollow": true
+                    },
+                    {
+                        "year": 2016,
+                        "count": 40242,
+                        "nofollow": true
+                    },
+                    {
+                        "year": 2015,
+                        "count": 25897,
+                        "nofollow": true
+                    },
+                    {
+                        "year": 2014,
+                        "count": 15358,
+                        "nofollow": true
+                    },
+                    {
+                        "year": 2013,
+                        "count": 6341,
+                        "nofollow": true
+                    },
+                    {
+                        "year": 2012,
+                        "count": 5391,
+                        "nofollow": true
+                    },
+                    {
+                        "year": 2011,
+                        "count": 4314,
+                        "nofollow": true
+                    },
+                    {
+                        "year": 2010,
+                        "count": 3897,
+                        "nofollow": true
+                    }
+                ],
+                "nofollow": true,
+                "count": 297647
+            },
+            {
+                "from": 2000,
+                "to": 2009,
+                "filter": "2000-01-01,2009-12-31",
+                "decade": 2000,
+                "years": [
+                    {
+                        "year": 2009,
+                        "count": 3117,
+                        "nofollow": true
+                    },
+                    {
+                        "year": 2008,
+                        "count": 2042,
+                        "nofollow": true
+                    },
+                    {
+                        "year": 2007,
+                        "count": 1593,
+                        "nofollow": true
+                    },
+                    {
+                        "year": 2006,
+                        "count": 1307,
+                        "nofollow": true
+                    },
+                    {
+                        "year": 2005,
+                        "count": 1195,
+                        "nofollow": true
+                    },
+                    {
+                        "year": 2004,
+                        "count": 1190,
+                        "nofollow": true
+                    },
+                    {
+                        "year": 2003,
+                        "count": 1168,
+                        "nofollow": true
+                    },
+                    {
+                        "year": 2002,
+                        "count": 1023,
+                        "nofollow": true
+                    },
+                    {
+                        "year": 2001,
+                        "count": 1147,
+                        "nofollow": true
+                    },
+                    {
+                        "year": 2000,
+                        "count": 1047,
+                        "nofollow": true
+                    }
+                ],
+                "nofollow": true,
+                "count": 14829
+            },
+            {
+                "from": 1990,
+                "to": 1999,
+                "filter": "1990-01-01,1999-12-31",
+                "decade": 1990,
+                "years": [
+                    {
+                        "year": 1999,
+                        "count": 811,
+                        "nofollow": true
+                    },
+                    {
+                        "year": 1998,
+                        "count": 752,
+                        "nofollow": true
+                    },
+                    {
+                        "year": 1997,
+                        "count": 879,
+                        "nofollow": true
+                    },
+                    {
+                        "year": 1996,
+                        "count": 789,
+                        "nofollow": true
+                    },
+                    {
+                        "year": 1995,
+                        "count": 877,
+                        "nofollow": true
+                    },
+                    {
+                        "year": 1994,
+                        "count": 839,
+                        "nofollow": true
+                    },
+                    {
+                        "year": 1993,
+                        "count": 761,
+                        "nofollow": true
+                    },
+                    {
+                        "year": 1992,
+                        "count": 668,
+                        "nofollow": true
+                    },
+                    {
+                        "year": 1991,
+                        "count": 590,
+                        "nofollow": true
+                    },
+                    {
+                        "year": 1990,
+                        "count": 543,
+                        "nofollow": true
+                    }
+                ],
+                "nofollow": true,
+                "count": 7509
+            },
+            {
+                "from": 1980,
+                "to": 1989,
+                "filter": "1980-01-01,1989-12-31",
+                "decade": 1980,
+                "years": [
+                    {
+                        "year": 1989,
+                        "count": 440,
+                        "nofollow": true
+                    },
+                    {
+                        "year": 1988,
+                        "count": 325,
+                        "nofollow": true
+                    },
+                    {
+                        "year": 1987,
+                        "count": 347,
+                        "nofollow": true
+                    },
+                    {
+                        "year": 1986,
+                        "count": 253,
+                        "nofollow": true
+                    },
+                    {
+                        "year": 1985,
+                        "count": 231,
+                        "nofollow": true
+                    },
+                    {
+                        "year": 1984,
+                        "count": 185,
+                        "nofollow": true
+                    },
+                    {
+                        "year": 1983,
+                        "count": 207,
+                        "nofollow": true
+                    },
+                    {
+                        "year": 1982,
+                        "count": 149,
+                        "nofollow": true
+                    },
+                    {
+                        "year": 1981,
+                        "count": 66,
+                        "nofollow": true
+                    },
+                    {
+                        "year": 1980,
+                        "count": 35,
+                        "nofollow": true
+                    }
+                ],
+                "nofollow": true,
+                "count": 2238
+            },
+            {
+                "from": 1970,
+                "to": 1979,
+                "filter": "1970-01-01,1979-12-31",
+                "decade": 1970,
+                "years": [
+                    {
+                        "year": 1979,
+                        "count": 15,
+                        "nofollow": true
+                    },
+                    {
+                        "year": 1978,
+                        "count": 17,
+                        "nofollow": true
+                    },
+                    {
+                        "year": 1977,
+                        "count": 13,
+                        "nofollow": true
+                    },
+                    {
+                        "year": 1976,
+                        "count": 7,
+                        "nofollow": true
+                    },
+                    {
+                        "year": 1975,
+                        "count": 3,
+                        "nofollow": true
+                    },
+                    {
+                        "year": 1974,
+                        "count": 2,
+                        "nofollow": true
+                    },
+                    {
+                        "year": 1973,
+                        "count": 1,
+                        "nofollow": true
+                    },
+                    {
+                        "year": 1972,
+                        "count": 2,
+                        "nofollow": true
+                    },
+                    {
+                        "year": 1971,
+                        "count": 6,
+                        "nofollow": true
+                    },
+                    {
+                        "year": 1970,
+                        "count": 1,
+                        "nofollow": true
+                    }
+                ],
+                "nofollow": true,
+                "count": 67
+            },
+            {
+                "from": 1960,
+                "to": 1969,
+                "filter": "1960-01-01,1969-12-31",
+                "decade": 1960,
+                "years": [
+                    {
+                        "year": 1962,
+                        "count": 1,
+                        "nofollow": true
+                    }
+                ],
+                "nofollow": true,
+                "count": 1
+            },
+            {
+                "from": 1950,
+                "to": 1959,
+                "filter": "1950-01-01,1959-12-31",
+                "decade": 1950,
+                "years": [
+                    {
+                        "year": 1958,
+                        "count": 1,
+                        "nofollow": true
+                    },
+                    {
+                        "year": 1954,
+                        "count": 1,
+                        "nofollow": true
+                    }
+                ],
+                "nofollow": true,
+                "count": 2
+            }
+        ]
+    },
+    "nofollow_collections": [
+        "stores"
+    ]
+}

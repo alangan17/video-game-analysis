@@ -1,0 +1,374 @@
+{
+    "years": [
+        {
+            "from": 2020,
+            "to": 2024,
+            "filter": "2020-01-01,2024-12-31",
+            "decade": 2020,
+            "years": [
+                {
+                    "year": 2024,
+                    "count": 3374,
+                    "nofollow": false
+                },
+                {
+                    "year": 2023,
+                    "count": 61891,
+                    "nofollow": false
+                },
+                {
+                    "year": 2022,
+                    "count": 168141,
+                    "nofollow": false
+                },
+                {
+                    "year": 2021,
+                    "count": 158682,
+                    "nofollow": false
+                },
+                {
+                    "year": 2020,
+                    "count": 121355,
+                    "nofollow": false
+                }
+            ],
+            "nofollow": true,
+            "count": 513443
+        },
+        {
+            "from": 2010,
+            "to": 2019,
+            "filter": "2010-01-01,2019-12-31",
+            "decade": 2010,
+            "years": [
+                {
+                    "year": 2019,
+                    "count": 73680,
+                    "nofollow": false
+                },
+                {
+                    "year": 2018,
+                    "count": 67941,
+                    "nofollow": false
+                },
+                {
+                    "year": 2017,
+                    "count": 54586,
+                    "nofollow": true
+                },
+                {
+                    "year": 2016,
+                    "count": 40242,
+                    "nofollow": true
+                },
+                {
+                    "year": 2015,
+                    "count": 25897,
+                    "nofollow": true
+                },
+                {
+                    "year": 2014,
+                    "count": 15358,
+                    "nofollow": true
+                },
+                {
+                    "year": 2013,
+                    "count": 6341,
+                    "nofollow": true
+                },
+                {
+                    "year": 2012,
+                    "count": 5391,
+                    "nofollow": true
+                },
+                {
+                    "year": 2011,
+                    "count": 4314,
+                    "nofollow": true
+                },
+                {
+                    "year": 2010,
+                    "count": 3897,
+                    "nofollow": true
+                }
+            ],
+            "nofollow": true,
+            "count": 297647
+        },
+        {
+            "from": 2000,
+            "to": 2009,
+            "filter": "2000-01-01,2009-12-31",
+            "decade": 2000,
+            "years": [
+                {
+                    "year": 2009,
+                    "count": 3117,
+                    "nofollow": true
+                },
+                {
+                    "year": 2008,
+                    "count": 2042,
+                    "nofollow": true
+                },
+                {
+                    "year": 2007,
+                    "count": 1593,
+                    "nofollow": true
+                },
+                {
+                    "year": 2006,
+                    "count": 1307,
+                    "nofollow": true
+                },
+                {
+                    "year": 2005,
+                    "count": 1195,
+                    "nofollow": true
+                },
+                {
+                    "year": 2004,
+                    "count": 1190,
+                    "nofollow": true
+                },
+                {
+                    "year": 2003,
+                    "count": 1168,
+                    "nofollow": true
+                },
+                {
+                    "year": 2002,
+                    "count": 1023,
+                    "nofollow": true
+                },
+                {
+                    "year": 2001,
+                    "count": 1147,
+                    "nofollow": true
+                },
+                {
+                    "year": 2000,
+                    "count": 1047,
+                    "nofollow": true
+                }
+            ],
+            "nofollow": true,
+            "count": 14829
+        },
+        {
+            "from": 1990,
+            "to": 1999,
+            "filter": "1990-01-01,1999-12-31",
+            "decade": 1990,
+            "years": [
+                {
+                    "year": 1999,
+                    "count": 811,
+                    "nofollow": true
+                },
+                {
+                    "year": 1998,
+                    "count": 752,
+                    "nofollow": true
+                },
+                {
+                    "year": 1997,
+                    "count": 879,
+                    "nofollow": true
+                },
+                {
+                    "year": 1996,
+                    "count": 789,
+                    "nofollow": true
+                },
+                {
+                    "year": 1995,
+                    "count": 877,
+                    "nofollow": true
+                },
+                {
+                    "year": 1994,
+                    "count": 839,
+                    "nofollow": true
+                },
+                {
+                    "year": 1993,
+                    "count": 761,
+                    "nofollow": true
+                },
+                {
+                    "year": 1992,
+                    "count": 668,
+                    "nofollow": true
+                },
+                {
+                    "year": 1991,
+                    "count": 590,
+                    "nofollow": true
+                },
+                {
+                    "year": 1990,
+                    "count": 543,
+                    "nofollow": true
+                }
+            ],
+            "nofollow": true,
+            "count": 7509
+        },
+        {
+            "from": 1980,
+            "to": 1989,
+            "filter": "1980-01-01,1989-12-31",
+            "decade": 1980,
+            "years": [
+                {
+                    "year": 1989,
+                    "count": 440,
+                    "nofollow": true
+                },
+                {
+                    "year": 1988,
+                    "count": 325,
+                    "nofollow": true
+                },
+                {
+                    "year": 1987,
+                    "count": 347,
+                    "nofollow": true
+                },
+                {
+                    "year": 1986,
+                    "count": 253,
+                    "nofollow": true
+                },
+                {
+                    "year": 1985,
+                    "count": 231,
+                    "nofollow": true
+                },
+                {
+                    "year": 1984,
+                    "count": 185,
+                    "nofollow": true
+                },
+                {
+                    "year": 1983,
+                    "count": 207,
+                    "nofollow": true
+                },
+                {
+                    "year": 1982,
+                    "count": 149,
+                    "nofollow": true
+                },
+                {
+                    "year": 1981,
+                    "count": 66,
+                    "nofollow": true
+                },
+                {
+                    "year": 1980,
+                    "count": 35,
+                    "nofollow": true
+                }
+            ],
+            "nofollow": true,
+            "count": 2238
+        },
+        {
+            "from": 1970,
+            "to": 1979,
+            "filter": "1970-01-01,1979-12-31",
+            "decade": 1970,
+            "years": [
+                {
+                    "year": 1979,
+                    "count": 15,
+                    "nofollow": true
+                },
+                {
+                    "year": 1978,
+                    "count": 17,
+                    "nofollow": true
+                },
+                {
+                    "year": 1977,
+                    "count": 13,
+                    "nofollow": true
+                },
+                {
+                    "year": 1976,
+                    "count": 7,
+                    "nofollow": true
+                },
+                {
+                    "year": 1975,
+                    "count": 3,
+                    "nofollow": true
+                },
+                {
+                    "year": 1974,
+                    "count": 2,
+                    "nofollow": true
+                },
+                {
+                    "year": 1973,
+                    "count": 1,
+                    "nofollow": true
+                },
+                {
+                    "year": 1972,
+                    "count": 2,
+                    "nofollow": true
+                },
+                {
+                    "year": 1971,
+                    "count": 6,
+                    "nofollow": true
+                },
+                {
+                    "year": 1970,
+                    "count": 1,
+                    "nofollow": true
+                }
+            ],
+            "nofollow": true,
+            "count": 67
+        },
+        {
+            "from": 1960,
+            "to": 1969,
+            "filter": "1960-01-01,1969-12-31",
+            "decade": 1960,
+            "years": [
+                {
+                    "year": 1962,
+                    "count": 1,
+                    "nofollow": true
+                }
+            ],
+            "nofollow": true,
+            "count": 1
+        },
+        {
+            "from": 1950,
+            "to": 1959,
+            "filter": "1950-01-01,1959-12-31",
+            "decade": 1950,
+            "years": [
+                {
+                    "year": 1958,
+                    "count": 1,
+                    "nofollow": true
+                },
+                {
+                    "year": 1954,
+                    "count": 1,
+                    "nofollow": true
+                }
+            ],
+            "nofollow": true,
+            "count": 2
+        }
+    ]
+}
