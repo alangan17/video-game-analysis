@@ -20,7 +20,7 @@ variable "location" {
 
 variable "bq_dataset_name" {
   description = "My BigQuery Dataset Name"
-  default     = "vga-bq-dataset"
+  default     = "vga_bq_dataset"
 }
 
 variable "gcs_bucket_name" {

@@ -205,3 +205,4 @@ keys/*
 
 # Terraform
 .terraform/
+.terraform.lock.hcl
