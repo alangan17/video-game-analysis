@@ -202,3 +202,4 @@ profiles.yml
 *.env.base
 *.env.enc
 *.env.dec
+keys/*.json
