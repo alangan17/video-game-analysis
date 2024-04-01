@@ -206,3 +206,5 @@ keys/*
 # Terraform
 .terraform/
 .terraform.lock.hcl
+terraform/terraform.tfstate.backup
+terraform/terraform.tfstate
