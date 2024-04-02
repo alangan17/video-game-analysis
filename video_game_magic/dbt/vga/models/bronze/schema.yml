@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+  - name: ext_tbl
+    database: video-game-analysis-418605
+    schema: vga
+
+    tables:
+      - name: external_games
