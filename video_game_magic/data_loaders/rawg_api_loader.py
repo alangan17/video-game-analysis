@@ -37,7 +37,7 @@ def generate_paginated_urls(
     url_list_dict = []
     for page in range(start_page, end_page + 1):
         url_dict = {
-            "output_filename": output_filename_base + "_" + str(page) + ".json",
+            "output_filename": output_filename_base + "_" + str(page),
             "page_id": page,
             "URL": templated_url.format(
                 page=page,
@@ -49,7 +49,8 @@ def generate_paginated_urls(
                 # When dates parameters value using `.`
                 #   pages after 250 will become valid
                 #   total_record_count is wrong
-                dates=kwargs.get("api_params_dates").replace(',', '.')
+                # dates=kwargs.get("api_params_dates").replace(',', '.')
+                # dates=kwargs.get("api_params_dates")
             ),
         }
         url_list_dict.append(url_dict)
@@ -65,11 +66,11 @@ def load_data_from_api(*args, **kwargs):
     headers = {'User-Agent': 'App Name: Education purpose', }
     params = {
         'key': os.environ['RAWG_API_KEY'],
-        'ordering': '-released',
+        # 'ordering': '-released',
         'page_size': kwargs.get("api_params_page_size"), # Max 40
         'page': 1,
         # Filter by release date
-        'dates': kwargs.get("api_params_dates")
+        # 'dates': kwargs.get("api_params_dates")
     }
 
     # Uncomment this to use real api call
@@ -110,7 +111,7 @@ def load_data_from_api(*args, **kwargs):
         base_url = response.request.url,
         output_filename_base = (
             "games" + "_" +
-            str(kwargs.get("api_params_dates")) + "_" +
+            str(kwargs.get("api_params_dates").replace(",", "__")) + "_" +
             str(kwargs.get("api_params_page_size"))
         ),
         page_size = kwargs.get("api_params_page_size"),
