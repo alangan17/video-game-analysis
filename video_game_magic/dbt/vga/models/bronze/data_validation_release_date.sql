@@ -1,3 +1,14 @@
+{{ config(
+    materialized='table',
+    post_hook=[
+        "{{ log_row_count() }}",
+    ],
+    tags=[
+        "bronze",
+        "data_validation"
+    ]
+) }}
+
 SELECT DISTINCT
     left(released, 7) AS release_date_yyyymm,
     count(DISTINCT released) AS release_date_count,
