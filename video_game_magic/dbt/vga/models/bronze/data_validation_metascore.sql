@@ -1,5 +1,5 @@
 {{ config(
-    materialized='table',
+    materialized='view',
     post_hook=[
         "{{ log_row_count() }}",
     ],
