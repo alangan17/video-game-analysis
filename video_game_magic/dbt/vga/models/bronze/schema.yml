@@ -14,15 +14,6 @@ sources:
       - name: external_tags
 
 models:
-  - name: fact_release_temp
-    description: "Copy from external table (from GCS), with transformed `released` and deduplicated `game_id`"
-    columns:
-      - name: game_id
-        description: "Game ID from RAWG"
-        tests:
-          - unique
-          - not_null
-
   - name: fact_release
     description: "Copy from external table (from GCS), with transformed `released` and deduplicated `game_id`"
     columns:
