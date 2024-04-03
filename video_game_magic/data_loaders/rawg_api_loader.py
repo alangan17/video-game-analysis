@@ -115,8 +115,8 @@ def load_data_from_api(*args, **kwargs):
             str(kwargs.get("api_params_page_size"))
         ),
         page_size = kwargs.get("api_params_page_size"),
-        start_page = 1,
-        end_page = total_page_count,
+        start_page = kwargs.get("api_start_page_id", 1),
+        end_page = kwargs.get("api_end_page_id", total_page_count),
         **kwargs
     )
 

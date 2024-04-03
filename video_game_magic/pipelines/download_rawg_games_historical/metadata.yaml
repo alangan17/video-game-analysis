@@ -59,8 +59,10 @@ type: python
 uuid: download_rawg_games_historical
 variables:
   api_array_key_name: results
+  api_end_page_id: 21634
   api_params_dates: 2024-01-01,2024-01-01
   api_params_page_size: 40
+  api_start_page_id: 1
   cleanup_local_file_after_gcs: 'yes'
   endpoint_url: https://api.rawg.io/api/games
   gcs_sink_bucket_name: vga-bucket-01
