@@ -1,1 +1,0 @@
-This is the scripts and configuration files for the Active Directory integration in Docker.
