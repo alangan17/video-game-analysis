@@ -28,12 +28,28 @@ For the data dictionary, refer to the dbt documentation [here](TBA)
 1. [Mage](https://www.mage.ai/)
 
 ## Setup
+
+### Google Cloud Setup
+1. Create a Google Cloud account and project.
+2. Install Terraform
+3. In Google Cloud Storage, create 2 buckets (one for historical data and one for the latest data).
+4. Create a service account. Required access:
+   1. Storage Admin
+   2. BigQuery Admin
+5. Download the service account key and save it as `./keys/gcp-creds.json`
+    > [!IMPORTANT]
+    > Do not commit the service account key to the repository.
+
+
+### Compute Environment Setup
 1. Prepare config files and create directories:
 ```bash
 bash script/00_repo_initial_setup.sh
 ```
 
-2. Start the docker containers:
+2. Prepare the files .env
+
+3. Start the docker containers:
 ```bash
 docker-compose up -d
 ```
