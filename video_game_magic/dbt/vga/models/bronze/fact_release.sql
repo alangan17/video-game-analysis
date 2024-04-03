@@ -3,8 +3,8 @@
     unique_key='game_id',
     partition_by={
       "field": "released",
-      "data_type": "DATE",
-      "granularity": "YEAR"
+      "data_type": "date",
+      "granularity": "month"
     },
     post_hook=[
         "{{ log_row_count() }}",

@@ -3,11 +3,6 @@
     post_hook=[
         "{{ log_row_count() }}",
     ],
-    partition_by={
-      "field": "released",
-      "data_type": "DATE",
-      "granularity": "YEAR"
-    },
     tags=[
         "bronze",
         "fact"
