@@ -160,12 +160,12 @@ tags: []
 type: python
 uuid: load_gcs_to_bq
 variables:
-  bq_table_name_games: video-game-analysis-418605.vga.external_games
-  bq_table_name_genres: video-game-analysis-418605.vga.external_genres
-  bq_table_name_parent_platforms: video-game-analysis-418605.vga.external_parent_platforms
-  bq_table_name_platforms: video-game-analysis-418605.vga.external_platforms
-  bq_table_name_stores: video-game-analysis-418605.vga.external_stores
-  bq_table_name_tags: video-game-analysis-418605.vga.external_tags
-  gcs_bucket_name: vga-bucket-01
+  bq_table_name_games: video-game-analysis-418605.source.external_games
+  bq_table_name_genres: video-game-analysis-418605.source.external_genres
+  bq_table_name_parent_platforms: video-game-analysis-418605.source.external_parent_platforms
+  bq_table_name_platforms: video-game-analysis-418605.source.external_platforms
+  bq_table_name_stores: video-game-analysis-418605.source.external_stores
+  bq_table_name_tags: video-game-analysis-418605.source.external_tags
+  gcs_bucket_name: vga-bucket-latest
 variables_dir: /home/src/mage_data/video_game_magic
 widgets: []
