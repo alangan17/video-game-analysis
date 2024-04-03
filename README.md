@@ -11,7 +11,7 @@ For the data dictionary, refer to the dbt documentation [here](TBA)
 ## Data Architecture
 ![data-architecture](assets/data-architecture.png)
 
-### Data Extraction and Load
+### Data Extraction and Load (Batch Ingestion)
 1. Python Script in Mage Pipeline
 2. [Google Cloud Storage (GCP)](https://console.cloud.google.com/storage)
 
