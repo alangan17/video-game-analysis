@@ -19,7 +19,7 @@ provider "google" {
   # 2. save as a variable in `variables.tf`
   # 3. save the path in this file: `credentials = "./keys/gcp-creds.json"`
   # 4. save the path in this ENV variable `GOOGLE_CREDENTIALS`
-  #  `export GOOGLE_CREDENTIALS='/workspaces/DataEngineerZoomCamp2024/keys/my-creds.json'`
+  #  `export GOOGLE_CREDENTIALS='/workspaces/video-game-analysis/keys/my-creds.json'`
   credentials = file(var.credentials)
 }
 
