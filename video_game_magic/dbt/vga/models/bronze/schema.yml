@@ -3,10 +3,15 @@ version: 2
 sources:
   - name: ext_tbl
     database: video-game-analysis-418605
-    schema: source
+    schema: vga
 
     tables:
       - name: external_games
+      - name: external_genres
+      - name: external_parent_platforms
+      - name: external_platforms
+      - name: external_stores
+      - name: external_tags
 
 models:
   - name: fact_release_temp
