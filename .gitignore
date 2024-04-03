@@ -160,7 +160,6 @@ cython_debug/
 #.idea/
 
 # Secrets
-keys/
 profiles.yml
 .user.yml
 
@@ -194,3 +193,18 @@ krb5.conf
 
 # SQL Server config
 openssl.cnf
+
+# Credentials Management
+profiles.yml
+# mage/io_config.yaml # DO NOT INPUT ANY ACTUAL VALUES HERE, REFERENCE TO .ENV
+*.env
+*.env.base
+*.env.enc
+*.env.dec
+keys/*
+
+# Terraform
+.terraform/
+.terraform.lock.hcl
+terraform/terraform.tfstate.backup
+terraform/terraform.tfstate

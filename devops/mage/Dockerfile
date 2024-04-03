@@ -1,4 +1,4 @@
-FROM mageai/mageai:0.9.64
+FROM mageai/mageai:0.9.67
 ## Available version: https://hub.docker.com/r/mageai/mageai/tags
 
 ## What is inside the image:

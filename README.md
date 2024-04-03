@@ -1,15 +1,31 @@
-# Template for Data Engineering
+# Video Game Analysis
 
-## Features - Dcoker Compose Services
-1. Notebook like python/ SQL/ R development & orchestration environment by [Mage](mage.ai)
-   
-   Optional features to opt in when building the Docker image (see [Dockerfile](/devops/mage/Dockerfile)):
-   1. Microsoft SQL Server ODBC Driver 17/ 18
-   2. Microsoft Active Directory Authentication via Kerberos
-   3. AzCopy (For file between Local Storage and Azure Blob Storage)
-   4. DuckDB CLI (In memory SQL database)
+## Overview
+This project aims to analyze video game data to identify trends and insights. The data is extracted from Mage and stored in Google Cloud Storage (GCP). The data is then transformed using dbt Cloud and Mage. The entire process is orchestrated using Mage.
 
-2. MinIO - optional service to spin up
+## Data Source
+Data is extracted from the RAWG Video Games Database API. The API provides information on video games, including game title, genre, platform, release date, and more. The API documentation can be found [here](https://api.rawg.io/docs/#tag/games).
+
+For the data dictionary, refer to the dbt documentation [here](TBA)
+
+## Data Architecture
+![data-architecture](assets/data-architecture.png)
+
+### Data Extraction and Load (Batch Ingestion)
+1. Python Script in Mage Pipeline
+2. [Google Cloud Storage (GCP)](https://console.cloud.google.com/storage)
+
+### Data Transformation
+1. [dbt Core](https://github.com/dbt-labs/dbt-core)
+
+### Data Warehouse
+1. [Google BigQuery](https://cloud.google.com/bigquery)
+
+### Data Visualization
+1. [Google Looker Studio](https://datastudio.google.com/)
+
+### Data Orchestration
+1. [Mage](https://www.mage.ai/)
 
 ## Setup
 1. Prepare config files and create directories:

@@ -1,0 +1,28 @@
+version: 2
+
+sources:
+  - name: ext_tbl
+    database: video-game-analysis-418605
+    schema: vga
+
+    tables:
+      - name: external_games
+
+models:
+  - name: fact_release_temp
+    description: "Copy from external table (from GCS), with transformed `released` and deduplicated `game_id`"
+    columns:
+      - name: game_id
+        description: "Game ID from RAWG"
+        tests:
+          - unique
+          - not_null
+
+  - name: fact_release
+    description: "Copy from external table (from GCS), with transformed `released` and deduplicated `game_id`"
+    columns:
+      - name: game_id
+        description: "Game ID from RAWG"
+        tests:
+          - unique
+          - not_null
