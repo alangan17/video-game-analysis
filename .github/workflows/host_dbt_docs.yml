@@ -42,33 +42,33 @@ jobs:
 
       - name: Install dbt deps
         run: dbt deps
-        working-directory: ${{ inputs.dbt_project_path }}
+        working-directory: ${{ inputs.dbt_project_path || 'video_game_magic/dbt/vga' }}
 
       - name: Overwrite dbt profiles (.yml)
         uses: "DamianReeves/write-file-action@master"
         with:
-          path: "${{ inputs.dbt_project_path }}/profiles.yml"
+          path: "${{ inputs.dbt_project_path || 'video_game_magic/dbt/vga' }}/profiles.yml"
           write-mode: overwrite
           contents: |
             ${{ secrets.DBT_PROFILE }}
 
       - name: dbt test db connection
         run: dbt debug --profiles-dir .
-        working-directory: ${{ inputs.dbt_project_path }}  
+        working-directory: ${{ inputs.dbt_project_path || 'video_game_magic/dbt/vga'}}  
 
       - name: dbt docs gen
         run: dbt docs generate --profiles-dir .
-        working-directory: ${{ inputs.dbt_project_path }}
+        working-directory: ${{ inputs.dbt_project_path || 'video_game_magic/dbt/vga'}}
 
       - name: dbt compile
         run: dbt compile --profiles-dir .
-        working-directory: ${{ inputs.dbt_project_path }}
+        working-directory: ${{ inputs.dbt_project_path || 'video_game_magic/dbt/vga'}}
 
       - name: Upload Artifacts - folder related dbt docs 🔺 # The project is then uploaded as an artifact named 'artifact'.
         uses: actions/upload-artifact@v1
         with:
           name: artifact
-          path: ${{ inputs.dbt_project_path }}/target
+          path: ${{ inputs.dbt_project_path || 'video_game_magic/dbt/vga'}}/target
       
   deploy:
     needs: [build]
