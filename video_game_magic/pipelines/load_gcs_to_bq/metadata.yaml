@@ -10,7 +10,8 @@ blocks:
     export_write_policy: append
     limit: 1000
     use_raw_sql: true
-  downstream_blocks: []
+  downstream_blocks:
+  - build_fact_release
   executor_config: null
   executor_type: local_python
   has_callback: false
@@ -28,12 +29,42 @@ blocks:
     data_provider: bigquery
     data_provider_database: video-game-analysis-418605
     data_provider_profile: default
+    dbt:
+      command: build
+    dbt_profile_target: '{{ env_var(''ENV_NAME'') }}'
+    dbt_project_name: dbt/vga
+    disable_query_preprocessing: false
+    export_write_policy: append
+    file_source:
+      path: dbts/build_fact_release.yaml
+    use_raw_sql: false
+  downstream_blocks:
+  - purge_gcs_bucket
+  executor_config: null
+  executor_type: local_python
+  has_callback: false
+  language: yaml
+  name: build fact_release
+  retry_config: null
+  status: executed
+  timeout: null
+  type: dbt
+  upstream_blocks:
+  - load_gcs_to_bq_ext_tbl_games
+  uuid: build_fact_release
+- all_upstream_blocks_executed: true
+  color: null
+  configuration:
+    data_provider: bigquery
+    data_provider_database: video-game-analysis-418605
+    data_provider_profile: default
     dbt: {}
     disable_query_preprocessing: true
     export_write_policy: append
     limit: 1000
     use_raw_sql: true
-  downstream_blocks: []
+  downstream_blocks:
+  - build_dim_genres
   executor_config: null
   executor_type: local_python
   has_callback: false
@@ -51,12 +82,42 @@ blocks:
     data_provider: bigquery
     data_provider_database: video-game-analysis-418605
     data_provider_profile: default
+    dbt:
+      command: build
+    dbt_profile_target: '{{ env_var(''ENV_NAME'') }}'
+    dbt_project_name: dbt/vga
+    disable_query_preprocessing: false
+    export_write_policy: append
+    file_source:
+      path: dbts/build_dim_genres.yaml
+    use_raw_sql: false
+  downstream_blocks:
+  - purge_gcs_bucket
+  executor_config: null
+  executor_type: local_python
+  has_callback: false
+  language: yaml
+  name: build_dim_genres
+  retry_config: null
+  status: updated
+  timeout: null
+  type: dbt
+  upstream_blocks:
+  - load_gcs_to_bg_ext_tbl_genres
+  uuid: build_dim_genres
+- all_upstream_blocks_executed: true
+  color: null
+  configuration:
+    data_provider: bigquery
+    data_provider_database: video-game-analysis-418605
+    data_provider_profile: default
     dbt: {}
     disable_query_preprocessing: true
     export_write_policy: append
     limit: 1000
     use_raw_sql: true
-  downstream_blocks: []
+  downstream_blocks:
+  - build_dim_parent_platforms
   executor_config: null
   executor_type: local_python
   has_callback: false
@@ -74,12 +135,42 @@ blocks:
     data_provider: bigquery
     data_provider_database: video-game-analysis-418605
     data_provider_profile: default
+    dbt:
+      command: build
+    dbt_profile_target: '{{ env_var(''ENV_NAME'') }}'
+    dbt_project_name: dbt/vga
+    disable_query_preprocessing: false
+    export_write_policy: append
+    file_source:
+      path: dbts/build_dim_platforms.yaml
+    use_raw_sql: false
+  downstream_blocks:
+  - purge_gcs_bucket
+  executor_config: null
+  executor_type: local_python
+  has_callback: false
+  language: yaml
+  name: build dim_parent_platforms
+  retry_config: null
+  status: updated
+  timeout: null
+  type: dbt
+  upstream_blocks:
+  - load_gcs_to_bg_ext_tbl_parent_platforms
+  uuid: build_dim_parent_platforms
+- all_upstream_blocks_executed: true
+  color: null
+  configuration:
+    data_provider: bigquery
+    data_provider_database: video-game-analysis-418605
+    data_provider_profile: default
     dbt: {}
     disable_query_preprocessing: true
     export_write_policy: append
     limit: 1000
     use_raw_sql: true
-  downstream_blocks: []
+  downstream_blocks:
+  - build_dim_platforms
   executor_config: null
   executor_type: local_python
   has_callback: false
@@ -97,12 +188,42 @@ blocks:
     data_provider: bigquery
     data_provider_database: video-game-analysis-418605
     data_provider_profile: default
+    dbt:
+      command: build
+    dbt_profile_target: '{{ env_var(''ENV_NAME'') }}'
+    dbt_project_name: dbt/vga
+    disable_query_preprocessing: false
+    export_write_policy: append
+    file_source:
+      path: dbts/build_dim_platforms.yaml
+    use_raw_sql: false
+  downstream_blocks:
+  - purge_gcs_bucket
+  executor_config: null
+  executor_type: local_python
+  has_callback: false
+  language: yaml
+  name: build_dim_platforms
+  retry_config: null
+  status: updated
+  timeout: null
+  type: dbt
+  upstream_blocks:
+  - load_gcs_to_bg_ext_tbl_platforms
+  uuid: build_dim_platforms
+- all_upstream_blocks_executed: true
+  color: null
+  configuration:
+    data_provider: bigquery
+    data_provider_database: video-game-analysis-418605
+    data_provider_profile: default
     dbt: {}
     disable_query_preprocessing: true
     export_write_policy: append
     limit: 1000
     use_raw_sql: true
-  downstream_blocks: []
+  downstream_blocks:
+  - build_dim_stores
   executor_config: null
   executor_type: local_python
   has_callback: false
@@ -120,12 +241,42 @@ blocks:
     data_provider: bigquery
     data_provider_database: video-game-analysis-418605
     data_provider_profile: default
+    dbt:
+      command: build
+    dbt_profile_target: '{{ env_var(''ENV_NAME'') }}'
+    dbt_project_name: dbt/vga
+    disable_query_preprocessing: false
+    export_write_policy: append
+    file_source:
+      path: dbts/build_dim_stores.yaml
+    use_raw_sql: false
+  downstream_blocks:
+  - purge_gcs_bucket
+  executor_config: null
+  executor_type: local_python
+  has_callback: false
+  language: yaml
+  name: build dim_stores
+  retry_config: null
+  status: updated
+  timeout: null
+  type: dbt
+  upstream_blocks:
+  - load_gcs_to_bg_ext_tbl_stores
+  uuid: build_dim_stores
+- all_upstream_blocks_executed: true
+  color: null
+  configuration:
+    data_provider: bigquery
+    data_provider_database: video-game-analysis-418605
+    data_provider_profile: default
     dbt: {}
     disable_query_preprocessing: true
     export_write_policy: append
     limit: 1000
     use_raw_sql: true
-  downstream_blocks: []
+  downstream_blocks:
+  - build_dim_tags
   executor_config: null
   executor_type: local_python
   has_callback: false
@@ -137,13 +288,66 @@ blocks:
   type: data_loader
   upstream_blocks: []
   uuid: load_gcs_to_bg_ext_tbl_tags
+- all_upstream_blocks_executed: true
+  color: null
+  configuration:
+    data_provider: bigquery
+    data_provider_database: video-game-analysis-418605
+    data_provider_profile: default
+    dbt:
+      command: build
+    dbt_profile_target: '{{ env_var(''ENV_NAME'') }}'
+    dbt_project_name: dbt/vga
+    disable_query_preprocessing: false
+    export_write_policy: append
+    file_source:
+      path: dbts/build_dim_tags.yaml
+    use_raw_sql: false
+  downstream_blocks:
+  - purge_gcs_bucket
+  executor_config: null
+  executor_type: local_python
+  has_callback: false
+  language: yaml
+  name: build_dim_tags
+  retry_config: null
+  status: updated
+  timeout: null
+  type: dbt
+  upstream_blocks:
+  - load_gcs_to_bg_ext_tbl_tags
+  uuid: build_dim_tags
+- all_upstream_blocks_executed: false
+  color: teal
+  configuration:
+    file_source:
+      path: custom/purge_gcs_bucket.py
+  downstream_blocks: []
+  executor_config: null
+  executor_type: local_python
+  has_callback: false
+  language: python
+  name: purge_gcs_bucket
+  retry_config: null
+  status: executed
+  timeout: null
+  type: custom
+  upstream_blocks:
+  - build_fact_release
+  - build_dim_platforms
+  - build_dim_parent_platforms
+  - build_dim_genres
+  - build_dim_stores
+  - build_dim_tags
+  uuid: purge_gcs_bucket
 cache_block_output_in_memory: false
 callbacks: []
 concurrency_config: {}
 conditionals: []
 created_at: '2024-03-28 17:54:40.199885+00:00'
 data_integration: null
-description: null
+description: Load data from GCS -> BigQuery Ext. Table -> BigQuery Physical Table,
+  then purge data in GCS
 executor_config: {}
 executor_count: 1
 executor_type: null

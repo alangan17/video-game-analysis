@@ -9,7 +9,7 @@ Data is extracted from the RAWG Video Games Database API. The API provides infor
 For the data dictionary, refer to the dbt documentation [here](TBA)
 
 ## Data Architecture
-![data-architecture](assets/data-architecture.png)
+![data-architecture](assets/data-architecture.gif)
 
 ### Data Extraction and Load (Batch Ingestion)
 1. Python Script in Mage Pipeline

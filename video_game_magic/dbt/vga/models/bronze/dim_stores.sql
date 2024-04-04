@@ -15,7 +15,7 @@ base as (
     select distinct
         store_id,
         store_name,
-        store_domain,
+        store_slug,
         game_id
     from {{ source('ext_tbl', 'external_stores') }}
 ),

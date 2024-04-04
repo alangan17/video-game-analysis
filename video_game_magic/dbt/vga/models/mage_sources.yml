@@ -1,0 +1,49 @@
+sources:
+- description: Dataframes Mage upstream blocks
+  loader: mage
+  name: mage_vga
+  schema: dbt_an
+  tables:
+  - description: Dataframe for block `load_gcs_to_bq_ext_tbl_games` of the `load_gcs_to_bq`
+      mage pipeline.
+    identifier: mage_load_gcs_to_bq_load_gcs_to_bq_ext_tbl_games
+    meta:
+      block_uuid: load_gcs_to_bq_ext_tbl_games
+      pipeline_uuid: load_gcs_to_bq
+    name: load_gcs_to_bq_load_gcs_to_bq_ext_tbl_games
+  - description: Dataframe for block `load_gcs_to_bg_ext_tbl_genres` of the `load_gcs_to_bq`
+      mage pipeline.
+    identifier: mage_load_gcs_to_bq_load_gcs_to_bg_ext_tbl_genres
+    meta:
+      block_uuid: load_gcs_to_bg_ext_tbl_genres
+      pipeline_uuid: load_gcs_to_bq
+    name: load_gcs_to_bq_load_gcs_to_bg_ext_tbl_genres
+  - description: Dataframe for block `load_gcs_to_bg_ext_tbl_parent_platforms` of
+      the `load_gcs_to_bq` mage pipeline.
+    identifier: mage_load_gcs_to_bq_load_gcs_to_bg_ext_tbl_parent_platforms
+    meta:
+      block_uuid: load_gcs_to_bg_ext_tbl_parent_platforms
+      pipeline_uuid: load_gcs_to_bq
+    name: load_gcs_to_bq_load_gcs_to_bg_ext_tbl_parent_platforms
+  - description: Dataframe for block `load_gcs_to_bg_ext_tbl_platforms` of the `load_gcs_to_bq`
+      mage pipeline.
+    identifier: mage_load_gcs_to_bq_load_gcs_to_bg_ext_tbl_platforms
+    meta:
+      block_uuid: load_gcs_to_bg_ext_tbl_platforms
+      pipeline_uuid: load_gcs_to_bq
+    name: load_gcs_to_bq_load_gcs_to_bg_ext_tbl_platforms
+  - description: Dataframe for block `load_gcs_to_bg_ext_tbl_stores` of the `load_gcs_to_bq`
+      mage pipeline.
+    identifier: mage_load_gcs_to_bq_load_gcs_to_bg_ext_tbl_stores
+    meta:
+      block_uuid: load_gcs_to_bg_ext_tbl_stores
+      pipeline_uuid: load_gcs_to_bq
+    name: load_gcs_to_bq_load_gcs_to_bg_ext_tbl_stores
+  - description: Dataframe for block `load_gcs_to_bg_ext_tbl_tags` of the `load_gcs_to_bq`
+      mage pipeline.
+    identifier: mage_load_gcs_to_bq_load_gcs_to_bg_ext_tbl_tags
+    meta:
+      block_uuid: load_gcs_to_bg_ext_tbl_tags
+      pipeline_uuid: load_gcs_to_bq
+    name: load_gcs_to_bq_load_gcs_to_bg_ext_tbl_tags
+version: 2

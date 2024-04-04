@@ -16,8 +16,6 @@ base as (
         id as genre_id,
         name as genre_name,
         slug as genre_slug,
-        games_count,
-        image_background,
         game_id
     from {{ source('ext_tbl', 'external_genres') }}
 ),

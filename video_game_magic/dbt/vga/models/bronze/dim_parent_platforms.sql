@@ -1,6 +1,6 @@
 {{ config(
     materialized='incremental',
-    unique_key='game_platform_id',
+    unique_key='game_parent_platform_id',
     post_hook=[
         "{{ log_row_count() }}",
     ],
@@ -13,9 +13,9 @@
 with
 base as (
     select distinct
-        platform_id,
-        platform_name,
-        platform_slug,
+        platform_id as parent_platform_id,
+        platform_name as parent_platform_name,
+        platform_slug as parent_platform_slug,
         game_id
     from {{ source('ext_tbl', 'external_parent_platforms') }}
 ),
@@ -25,8 +25,8 @@ add_unique_key as (
         *,
         {{ dbt_utils.generate_surrogate_key([
             'game_id',
-            'platform_id'
-        ]) }} as game_platform_id
+            'parent_platform_id'
+        ]) }} as game_parent_platform_id
     from base
 ),
 
