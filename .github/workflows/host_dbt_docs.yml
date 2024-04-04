@@ -41,7 +41,7 @@ jobs:
           python-version: "3.10"
 
       - name: Install dbt
-        run: pip install dbt-bigquery==1.7.7
+        run: pip install dbt-sqlserver==1.7.7
 
       - name: Install dbt deps
         run: dbt deps
