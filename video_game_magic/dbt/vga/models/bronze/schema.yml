@@ -3,14 +3,26 @@ version: 2
 sources:
   - name: ext_tbl
     database: video-game-analysis-418605
-    schema: vga
+    schema: source
+    loader: mage
 
     tables:
       - name: external_games
+        description: "From API call - games. Contains the game information, see `fact_release` for column definitions"
+      - name: external_genres
+        description: "From API call - games. Contains the game genre information, see `dim_genres` for column definitions"
+      - name: external_parent_platforms
+        description: "From API call - games. Contains the game release parent platform information, see `dim_parent_platforms` for column definitions"
+      - name: external_platforms
+        description: "From API call - games. Contains the game release platform information, see `dim_platforms` for column definitions"
+      - name: external_stores
+        description: "From API call - games. Contains the game release store information, see `dim_stores` for column definitions"
+      - name: external_tags
+        description: "From API call - games. Contains the game tag information, see `dim_tags` for column definitions"
 
 models:
-  - name: fact_release_temp
-    description: "Copy from external table (from GCS), with transformed `released` and deduplicated `game_id`"
+  - name: fact_release
+    description: "From API call - games. Contains the game release data. Copy from external table (from GCS), with transformed `released` and deduplicated `game_id`"
     columns:
       - name: game_id
         description: "Game ID from RAWG"
@@ -18,11 +30,106 @@ models:
           - unique
           - not_null
 
-  - name: fact_release
-    description: "Copy from external table (from GCS), with transformed `released` and deduplicated `game_id`"
+  - name: dim_games
+    description: "From API call - games. Contains the game information. Copy from external table (from GCS), with distinct `game_id`"
     columns:
       - name: game_id
         description: "Game ID from RAWG"
+        tests:
+          - unique
+          - not_null
+
+  - name: dim_genres
+    description: "From API call - games. Contains the game genre name. Copy from external table (from GCS), with distinct `genre_id`, `game_id`"
+    columns:
+      - name: genre_id
+        description: "Genre ID from RAWG"
+        tests:
+          - not_null
+
+      - name: game_id
+        description: "Game ID from RAWG"
+        tests:
+          - not_null
+
+      - name: game_genre_id
+        description: "Surrogate key of game_id and genre_id"
+        tests:
+          - unique
+          - not_null
+
+  - name: dim_parent_platforms
+    description: "From API call - games. Contains the game release parent platform infomation. Copy from external table (from GCS), with distinct `parent_platform_id`, `game_id`"
+    columns:
+      - name: parent_platform_id
+        description: "Parent Platform ID from RAWG"
+        tests:
+          - not_null
+
+      - name: game_id
+        description: "Game ID from RAWG"
+        tests:
+          - not_null
+
+      - name: game_parent_platform_id
+        description: "Surrogate key of game_id and parent_platform_id"
+        tests:
+          - unique
+          - not_null
+
+  - name: dim_platforms
+    description: "From API call - games. Contains the game release platform infomation. Copy from external table (from GCS), with distinct `platform_id`, `game_id`"
+    columns:
+      - name: platform_id
+        description: "Platform ID from RAWG"
+        tests:
+          - not_null
+
+      - name: game_id
+        description: "Game ID from RAWG"
+        tests:
+          - not_null
+
+      - name: game_platform_id
+        description: "Surrogate key of game_id and platform_id"
+        tests:
+          - unique
+          - not_null
+
+  - name: dim_stores
+    description: "From API call - games. Contains the game release store infomation. Copy from external table (from GCS), with distinct `store_id`, `game_id`"
+    columns:
+      - name: store_id
+        description: "Store ID from RAWG"
+        tests:
+          - not_null
+
+      - name: game_id
+        description: "Game ID from RAWG"
+        tests:
+          - not_null
+      
+      - name: game_store_id
+        description: "Surrogate key of game_id and store_id"
+        tests:
+          - unique
+          - not_null
+
+  - name: dim_tags
+    description: "From API call - games. Contains the game tag infomation. Copy from external table (from GCS), with distinct `tag_id`, `game_id`"
+    columns:
+      - name: tag_id
+        description: "Tag ID from RAWG"
+        tests:
+          - not_null
+
+      - name: game_id
+        description: "Game ID from RAWG"
+        tests:
+          - not_null
+
+      - name: game_tag_id
+        description: "Surrogate key of game_id and tag_id"
         tests:
           - unique
           - not_null
