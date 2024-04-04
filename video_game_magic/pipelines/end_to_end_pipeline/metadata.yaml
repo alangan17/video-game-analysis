@@ -1,21 +1,19 @@
 blocks:
 - all_upstream_blocks_executed: true
   color: null
-  configuration:
-    dynamic: true
-  downstream_blocks:
-  - rawg_api_exporter
+  configuration: {}
+  downstream_blocks: []
   executor_config: null
   executor_type: local_python
   has_callback: false
   language: python
-  name: rawg_api_loader
+  name: extract_rawg_api_data
   retry_config: null
   status: updated
   timeout: null
   type: data_loader
   upstream_blocks: []
-  uuid: rawg_api_loader
+  uuid: extract_rawg_api_data
 - all_upstream_blocks_executed: true
   color: null
   configuration: {}
@@ -23,15 +21,15 @@ blocks:
   executor_config: null
   executor_type: local_python
   has_callback: false
-  language: markdown
-  name: download_rawg_games
+  language: python
+  name: load_gcs_to_bigquery
   retry_config: null
   status: updated
   timeout: null
-  type: markdown
+  type: data_loader
   upstream_blocks: []
-  uuid: download_rawg_games
-- all_upstream_blocks_executed: false
+  uuid: load_gcs_to_bigquery
+- all_upstream_blocks_executed: true
   color: null
   configuration: {}
   downstream_blocks: []
@@ -39,28 +37,25 @@ blocks:
   executor_type: local_python
   has_callback: false
   language: python
-  name: rawg_api_exporter
+  name: transform_dbt_models_for_looker
   retry_config: null
-  status: updated
+  status: executed
   timeout: null
-  type: data_exporter
-  upstream_blocks:
-  - rawg_api_loader
-  uuid: rawg_api_exporter
+  type: data_loader
+  upstream_blocks: []
+  uuid: transform_dbt_models_for_looker
 cache_block_output_in_memory: false
 callbacks: []
-concurrency_config:
-  block_run_limit: 15
-  pipeline_run_limit: 5
+concurrency_config: {}
 conditionals: []
-created_at: '2024-03-23 06:36:47.351026+00:00'
+created_at: '2024-04-04 04:52:47.008646+00:00'
 data_integration: null
-description: Download RAWG data (please note your API limit)
+description: End to End ELT Pipeline
 executor_config: {}
 executor_count: 1
 executor_type: null
 extensions: {}
-name: download_rawg_games
+name: end_to_end_pipeline
 notification_config: {}
 remote_variables_dir: null
 retry_config: {}
@@ -69,20 +64,14 @@ settings:
   triggers: null
 spark_config: {}
 tags:
-- level2
+- level1
 type: python
-uuid: download_rawg_games
+uuid: end_to_end_pipeline
 variables:
-  api_array_key_name: results
-  api_end_page_id: ''
-  api_params_page_size: 40
-  api_params_update_dates: 2024-04-02,2024-04-03
-  api_start_page_id: 1
-  cleanup_local_file_after_gcs: 'yes'
-  endpoint_url: https://api.rawg.io/api/games
-  gcs_sink_bucket_name: vga-bucket-latest
-  output_dir: data
-  output_filename_prefix: games_latest
-  output_format: parquet
+  bigquery_project_id: video-game-analysis-418605
+  extract_api_date_offset: -1
+  extract_api_mode: latest
+  gcs_bucket: vga-bucket-latest
+  pipeline_timeout: 300
 variables_dir: /home/src/mage_data/video_game_magic
 widgets: []

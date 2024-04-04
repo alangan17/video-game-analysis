@@ -1,5 +1,5 @@
 {{ config(
-    materialized='table',
+    materialized='view',
     partition_by={
       "field": "released",
       "data_type": "date",

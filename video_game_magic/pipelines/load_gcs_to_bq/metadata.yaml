@@ -360,7 +360,8 @@ run_pipeline_in_one_process: false
 settings:
   triggers: null
 spark_config: {}
-tags: []
+tags:
+- level2
 type: python
 uuid: load_gcs_to_bq
 variables:

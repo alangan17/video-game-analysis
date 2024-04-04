@@ -10,7 +10,7 @@
         "{{ log_row_count() }}",
     ],
     tags=[
-        "silver",
+        "gold",
         "fact"
     ]
 ) }}

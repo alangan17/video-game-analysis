@@ -1,0 +1,50 @@
+blocks:
+- all_upstream_blocks_executed: true
+  color: null
+  configuration:
+    dbt:
+      command: build
+    dbt_profile_target: '{{ env_var(''ENV_NAME'') }}'
+    dbt_project_name: dbt/vga
+    disable_query_preprocessing: false
+    export_write_policy: append
+    file_source:
+      path: dbts/build_silver_gold_models.yaml
+    use_raw_sql: false
+  downstream_blocks: []
+  executor_config: null
+  executor_type: local_python
+  has_callback: false
+  language: yaml
+  name: build silver gold models
+  retry_config: null
+  status: executed
+  timeout: null
+  type: dbt
+  upstream_blocks: []
+  uuid: build_silver_gold_models
+cache_block_output_in_memory: false
+callbacks: []
+concurrency_config: {}
+conditionals: []
+created_at: '2024-04-04 04:41:04.524437+00:00'
+data_integration: null
+description: Execute dbt models (silver and gold)
+executor_config: {}
+executor_count: 1
+executor_type: null
+extensions: {}
+name: transform_bi_models
+notification_config: {}
+remote_variables_dir: null
+retry_config: {}
+run_pipeline_in_one_process: false
+settings:
+  triggers: null
+spark_config: {}
+tags:
+- level2
+type: python
+uuid: transform_bi_models
+variables_dir: /home/src/mage_data/video_game_magic
+widgets: []

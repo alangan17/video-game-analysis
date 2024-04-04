@@ -1,0 +1,17 @@
+triggers:
+- envs: []
+  last_enabled_at: 2024-04-04 05:27:59.425542
+  name: daily_UTC_0000
+  pipeline_uuid: end_to_end_pipeline
+  schedule_interval: '@daily'
+  schedule_type: time
+  settings: null
+  sla: null
+  start_time: 2024-04-04 00:00:00
+  status: active
+  variables:
+    bigquery_project_id: video-game-analysis-418605
+    extract_api_date_offset: -1
+    extract_api_mode: latest
+    gcs_bucket: vga-bucket-latest
+    pipeline_timeout: 300
