@@ -28,6 +28,9 @@ For the data dictionary, refer to the dbt documentation [here](TBA)
 ### Data Orchestration
 1. [Mage](https://www.mage.ai/)
 
+### Infrastructure as Code
+1. [Terraform](https://www.terraform.io/)
+
 ### CI/CD
 1. GitHub Actions - to generate and host dbt documentation
    

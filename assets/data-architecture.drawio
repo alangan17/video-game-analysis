@@ -1,12 +1,14 @@
-<mxfile host="app.diagrams.net" modified="2024-04-03T23:51:24.295Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="6ySnaXuud16pQiFHub7Q" version="24.2.1" type="device">
+<mxfile host="app.diagrams.net" modified="2024-04-04T07:11:58.729Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="vLOhgJa63TXknnzdQ7L_" version="24.2.2" type="device">
   <diagram name="Page-1" id="u8NfWFhtH0d-FTw0Rulg">
     <mxGraphModel dx="1434" dy="690" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" style="" parent="0" />
-        <mxCell id="YPGw_FR9o6ng8KGkMDbz-41" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;" parent="1" vertex="1">
-          <mxGeometry width="850" height="600" as="geometry" />
-        </mxCell>
+        <UserObject label="" id="YPGw_FR9o6ng8KGkMDbz-41">
+          <mxCell style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;" parent="1" vertex="1">
+            <mxGeometry width="850" height="600" as="geometry" />
+          </mxCell>
+        </UserObject>
         <mxCell id="YPGw_FR9o6ng8KGkMDbz-24" value="" style="rounded=0;whiteSpace=wrap;html=1;labelPosition=left;verticalLabelPosition=top;align=right;verticalAlign=bottom;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="130" y="140" width="680" height="340" as="geometry" />
         </mxCell>
@@ -17,7 +19,7 @@
           <mxGeometry x="180" y="190" width="460" height="230" as="geometry" />
         </mxCell>
         <mxCell id="YPGw_FR9o6ng8KGkMDbz-39" value="Data Orchestration" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://mintlify.s3-us-west-1.amazonaws.com/mage/logo/light.svg;shadow=1;" parent="1" vertex="1">
-          <mxGeometry x="340" y="159" width="113.29" height="30" as="geometry" />
+          <mxGeometry x="190" y="158" width="113.29" height="30" as="geometry" />
         </mxCell>
         <mxCell id="YPGw_FR9o6ng8KGkMDbz-40" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Google_Cloud_logo.svg/2560px-Google_Cloud_logo.svg.png;shadow=1;" parent="1" vertex="1">
           <mxGeometry x="129" y="110" width="193.55" height="30" as="geometry" />
@@ -60,6 +62,9 @@
         </mxCell>
         <mxCell id="YPGw_FR9o6ng8KGkMDbz-23" value="" style="shape=image;verticalLabelPosition=top;labelBackgroundColor=default;verticalAlign=bottom;aspect=fixed;imageAspect=0;image=https://seeklogo.com/images/D/dbt-logo-E4B0ED72A2-seeklogo.com.png;labelPosition=center;align=center;shadow=1;" parent="YPGw_FR9o6ng8KGkMDbz-16" vertex="1">
           <mxGeometry x="517" y="200" width="104.35" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="kMab2RkLmynlELht2ztI-2" value="Infrastructure as Code" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Terraform_Logo.svg/1280px-Terraform_Logo.svg.png;shadow=1;fontStyle=0" vertex="1" parent="YPGw_FR9o6ng8KGkMDbz-16">
+          <mxGeometry x="321.09" y="158" width="125.33" height="30.08" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
