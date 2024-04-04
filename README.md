@@ -27,6 +27,9 @@ For the data dictionary, refer to the dbt documentation [here](TBA)
 
 ### Data Orchestration
 1. [Mage](https://www.mage.ai/)
+
+### CI/CD
+1. GitHub Actions - to generate and host dbt documentation
    
 
 ## Data Product
@@ -35,7 +38,10 @@ For the data dictionary, refer to the dbt documentation [here](TBA)
 
    ![mage pipelien run](<./assets/mage_pipeline_e2e_run.png>)
 
-2. [Dashboard using Looker Studio](https://lookerstudio.google.com/reporting/787f3d23-cd50-4521-8d24-1398ea9138af/page/tEnnC)
+2. [dbt docs](https://alangan17.github.io/video-game-analysis) to view the data model and documentation
+   ![dbt lineage](<./assets/dbt_lineage.png>)
+
+3. [Dashboard using Looker Studio](https://lookerstudio.google.com/reporting/787f3d23-cd50-4521-8d24-1398ea9138af/page/tEnnC)
    ![dashboard](<./assets/looker_dashboard.png>)
 
 ## Setup
