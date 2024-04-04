@@ -1,7 +1,7 @@
 # Video Game Analysis
 
 ## Overview
-This project aims to analyze video game data to identify trends and insights. The data is extracted from Mage and stored in Google Cloud Storage (GCP). The data is then transformed using dbt Cloud and Mage. The entire process is orchestrated using Mage.
+This project aims to analyze video game data to identify trends and insights. The data is extracted from [RAWG](https://rawg.io/apidocs) using Python and stored in Google Cloud Storage (GCP). The data is then transformed using dbt Cloud and Mage. The entire process is orchestrated using Mage.
 
 ## Data Source
 Data is extracted from the RAWG Video Games Database API. The API provides information on video games, including game title, genre, platform, release date, and more. The API documentation can be found [here](https://api.rawg.io/docs/#tag/games).
@@ -87,7 +87,7 @@ docker-compose up -d
     ![Open Mage](<./assets/open_mage_container.png>)
 
 14. Run the pipeline `end_to_end_pipeline`
-    ![Run Pipeline](<./assets/run_pipeline.png>)
+    ![Run Pipeline](<./assets/mage_pipelines.png>)
 
 15. Check the data in BigQuery
 16. Clone the [dashboard](https://lookerstudio.google.com/reporting/787f3d23-cd50-4521-8d24-1398ea9138af/page/tEnnC) in Looker Studio and connect the data source to BigQuery
