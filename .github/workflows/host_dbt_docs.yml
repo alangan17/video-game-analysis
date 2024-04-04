@@ -19,11 +19,6 @@ on:
         description: 'where the dbt project is located'
         required: true
         default: video_game_magic/dbt/vga
-        
-      manifest_upd_script_path: # <dbt project folder>/upd_manifest.py
-        description: ' where the manifest update script is located'
-        required: true
-        default: upd_manifest.py
 
 permissions:
   contents: write
@@ -41,7 +36,7 @@ jobs:
           python-version: "3.10"
 
       - name: Install dbt
-        run: pip install dbt-sqlserver==1.7.7
+        run: pip install dbt-bigquery==1.7.7
 
       - name: Install dbt deps
         run: dbt deps
