@@ -1,0 +1,92 @@
+name: Host dbt docs on Github Pages
+
+on:
+  push:
+    branches:
+        - main
+    paths:
+        - 'video_game_magic/dbt/**'
+
+  release:
+    types:
+        # This GH Action will triggered when new release is published
+        - published
+
+  workflow_dispatch:
+    # This GH Action will be able to manually trigger
+    inputs:
+      dbt_project_path:
+        description: 'where the dbt project is located'
+        required: true
+        default: video_game_magic/dbt/vga
+        
+      manifest_upd_script_path: # <dbt project folder>/upd_manifest.py
+        description: ' where the manifest update script is located'
+        required: true
+        default: upd_manifest.py
+
+permissions:
+  contents: write
+  
+jobs:
+  build:  
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout 🛎️
+        uses: actions/checkout@v4
+      
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.10"
+
+      - name: Install dbt
+        run: pip install dbt-sqlserver==1.7.7
+
+      - name: Install dbt deps
+        run: dbt deps
+        working-directory: ${{ inputs.dbt_project_path }}
+
+      - name: Overwrite dbt profiles (.yml)
+        uses: "DamianReeves/write-file-action@master"
+        with:
+          path: "${{ inputs.dbt_project_path }}/profiles.yml"
+          write-mode: overwrite
+          contents: |
+            ${{ secrets.DBT_PROFILE }}
+
+      - name: dbt test db connection
+        run: dbt debug --profiles-dir .
+        working-directory: ${{ inputs.dbt_project_path }}  
+
+      - name: dbt docs gen
+        run: dbt docs generate --profiles-dir .
+        working-directory: ${{ inputs.dbt_project_path }}
+
+      - name: dbt compile
+        run: dbt compile --profiles-dir .
+        working-directory: ${{ inputs.dbt_project_path }}
+
+      - name: Upload Artifacts - folder related dbt docs 🔺 # The project is then uploaded as an artifact named 'artifact'.
+        uses: actions/upload-artifact@v1
+        with:
+          name: artifact
+          path: ${{ inputs.dbt_project_path }}/target
+      
+  deploy:
+    needs: [build]
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout 🛎️
+        uses: actions/checkout@v4
+
+      - name: Download Artifacts 🔻 # The built project is downloaded into the 'artifact' folder.
+        uses: actions/download-artifact@v4
+        with:
+          name: artifact
+      
+      - name: Deploy to branch gh-pages
+        uses: JamesIves/github-pages-deploy-action@v4
+        with: 
+          folder: artifact

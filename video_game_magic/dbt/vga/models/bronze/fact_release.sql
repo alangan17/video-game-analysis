@@ -6,6 +6,7 @@
       "data_type": "date",
       "granularity": "month"
     },
+    cluster_by = "game_id",
     post_hook=[
         "{{ log_row_count() }}",
     ],
