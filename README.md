@@ -6,7 +6,7 @@ This project aims to analyze video game data to identify trends and insights. Th
 ## Data Source
 Data is extracted from the RAWG Video Games Database API. The API provides information on video games, including game title, genre, platform, release date, and more. The API documentation can be found [here](https://api.rawg.io/docs/#tag/games).
 
-For the data dictionary, refer to the dbt documentation [here](TBA)
+For the data dictionary, refer to the dbt documentation (Click `Sources`) [here](https://alangan17.github.io/video-game-analysis)
 
 ## Data Architecture
 ![data-architecture](assets/data-architecture.gif)
